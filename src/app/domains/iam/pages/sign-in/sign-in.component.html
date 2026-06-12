@@ -1,0 +1,50 @@
+<div class="login-container">
+  <!-- Imagen -->
+  <div class="image-section">
+    <img
+      ngSrc="/assets/image34.png"
+      alt="Fishing Boat"
+      class="image-cover"
+      height="1117"
+      width="732"
+      priority
+    />
+  </div>
+
+  <!-- Formulario -->
+  <div class="form-section">
+    <div class="text-center mb-6">
+      <img
+        ngSrc="/assets/image32.png"
+        alt="PescaGo Logo"
+        class=""
+        height="201"
+        width="201"
+      />
+      <h1 class="title">PescaGo</h1>
+      <p class="subtitle">Bienvenido a la página web</p>
+
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <mat-form-field appearance="outline">
+              <mat-label>Correo electrónico</mat-label>
+              <input matInput type="email" formControlName="email" placeholder="Correo electrónico" />
+              <mat-icon matIconSuffix>person</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+              <mat-label>Contraseña</mat-label>
+              <input matInput type="password" formControlName="password" placeholder="Contraseña" />
+              <mat-icon matIconSuffix>lock</mat-icon>
+          </mat-form-field>
+
+          <div class="text-center link-section">
+              <a href="/sign-up" class="register-link">¿Deseas registrarte?</a>
+          </div>
+
+        <button mat-raised-button color="primary" class="login-button" [disabled]="loginForm.invalid">
+          Iniciar Sesión
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,87 @@
+<div class="create-request-container">
+  <!-- Header -->
+  <div class="header">
+    <img src="assets/images/boxes.png" alt="boxes" class="header-icon-left" />
+    <h1>Formulario de Detalles del Paquete</h1>
+    <a [routerLink]="['/entrepreneur/home']">
+      <img src="assets/images/home-icon.png" alt="Home" class="header-icon" />
+    </a>
+  </div>
+
+  <!-- Selected Carriers -->
+  <div class="selected-carriers">
+    <h2>Nombre de las Empresas Seleccionadas</h2>
+    <div class="carrier-list" *ngIf="selectedCarriers.length > 0">
+      <p *ngFor="let carrier of selectedCarriers">{{ carrier.name }}</p>
+    </div>
+    <p *ngIf="selectedCarriers.length === 0">
+      No se han seleccionado empresas.
+    </p>
+  </div>
+
+  <!-- Request Form -->
+  <div class="request-form">
+    <div class="form-columns">
+      <!-- Columna Izquierda -->
+      <div class="form-column">
+        <div>
+          <label for="package">Descripción del Contenido:</label>
+          <input type="text" id="package" [(ngModel)]="packageDescription" />
+        </div>
+        <div>
+          <label for="quantity">Cantidad de paquetes:</label>
+          <input type="number" id="quantity" [(ngModel)]="quantity" />
+        </div>
+        <div>
+          <label>Dimensiones del paquete (por unidad):</label>
+          <div class="dimension-inputs">
+            <label for="length">Largo (cm):</label>
+            <input type="number" id="length" [(ngModel)]="length" />
+          </div>
+          <div class="dimension-inputs">
+            <label for="width">Ancho (cm):</label>
+            <input type="number" id="width" [(ngModel)]="width" />
+          </div>
+          <div class="dimension-inputs">
+            <label for="height">Alto (cm):</label>
+            <input type="number" id="height" [(ngModel)]="height" />
+          </div>
+        </div>
+      </div>
+      <!-- Columna Derecha -->
+      <div class="form-column">
+        <div>
+          <label for="weightTotal">Peso total del envío (kg):</label>
+          <input type="number" id="weightTotal" [(ngModel)]="weightTotal" />
+        </div>
+        <div>
+          <label for="pickupLocation">Ubicación de recojo:</label>
+          <input type="text" id="pickupLocation" [(ngModel)]="pickupLocation" />
+        </div>
+        <div>
+          <label for="deliveryLocation">Ubicación de entrega:</label>
+          <input
+            type="text"
+            id="deliveryLocation"
+            [(ngModel)]="deliveryLocation"
+          />
+        </div>
+        <div>
+          <label for="pickupDateTime">Fecha y hora estimada del recojo:</label>
+          <input
+            type="datetime-local"
+            id="pickupDateTime"
+            [(ngModel)]="pickupDateTime"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button class="submit-button" (click)="submitRequest()">Enviar</button>
+    <button class="cancel-button" [routerLink]="['/entrepreneur/home']">
+      Cancelar
+    </button>
+  </div>
+</div>

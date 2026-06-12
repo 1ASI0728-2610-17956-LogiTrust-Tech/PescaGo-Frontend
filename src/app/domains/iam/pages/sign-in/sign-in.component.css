@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f3f4f6;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.image-section {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-cover {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.form-section {
+  width: 30%;
+  padding: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.input-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.link-section {
+  margin: 1rem 0;
+}
+
+.register-link {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #3b82f6;
+
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.login-button:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .image-section {
+    display: none;
+  }
+
+  .login-container {
+    background: #1f2937;
+  }
+
+  .form-section {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .login-button {
+    padding: 0.5rem;
+  }
+}

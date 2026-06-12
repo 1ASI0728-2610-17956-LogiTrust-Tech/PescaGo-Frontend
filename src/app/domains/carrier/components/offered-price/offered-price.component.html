@@ -1,0 +1,27 @@
+<mat-dialog-content class="shipment-container">
+    <div class="icon-section">
+        <img src="./assets/images/image31.png" alt="Paquetes" class="package-icon" />
+    </div>
+
+    <div class="details-section">
+
+        <div class="form-row">
+            <h2>Precio Ofrecido por el Servicio</h2>
+            <div class="info-box full-width">
+                <mat-form-field appearance="outline">
+                    <input
+                            matInput
+                            type="number"
+                            [(ngModel)]="price"
+                            placeholder="Precio ofrecido"
+                    />
+                    <mat-icon matIconSuffix>payments</mat-icon>
+                </mat-form-field>
+            </div>
+        </div>
+    </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button color="primary" (click)="closeDialog()">Enviar</button>
+</mat-dialog-actions>

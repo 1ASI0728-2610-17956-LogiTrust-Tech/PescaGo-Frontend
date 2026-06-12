@@ -1,0 +1,155 @@
+.create-request-container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #2b5577;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header-icon-left {
+  width: 70px;
+  height: 70px;
+}
+
+/* Selected Carriers Styles */
+.selected-carriers {
+  margin-bottom: 20px;
+}
+
+.selected-carriers h2 {
+  font-size: 18px;
+  color: #2b5577;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.carrier-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #b8e0ff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.carrier-list p {
+  margin: 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Request Form Styles */
+.request-form {
+  background-color: #729acd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.request-form h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.form-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.form-column {
+  flex: 1;
+}
+
+.form-column div {
+  margin-bottom: 15px;
+}
+
+.form-column label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-column input {
+  width: 97%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Button Container Styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.submit-button {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #6b2e0e;
+}
+
+.cancel-button {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cancel-button:hover {
+  background-color: #f55656;
+  border: 1px solid #f55656;
+}
+
+.dimension-inputs {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dimension-inputs label {
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: left;
+}

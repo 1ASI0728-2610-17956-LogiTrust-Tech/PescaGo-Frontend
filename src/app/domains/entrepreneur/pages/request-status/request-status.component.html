@@ -1,0 +1,64 @@
+<div class="request-status-container">
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <img
+        src="assets/images/solicitudes_boton.png"
+        alt="Solicitudes"
+        class="header-icon-left"
+      />
+      <h1>Estado de Solicitudes</h1>
+    </div>
+    <div class="header-right">
+      <a [routerLink]="['/entrepreneur/home']">
+        <img
+          src="assets/images/home-icon.png"
+          alt="Home"
+          class="header-icon-right"
+        />
+      </a>
+    </div>
+  </div>
+
+  <!-- Table -->
+  <table class="status-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Nombre de las Empresas</th>
+        <th>Descripción del paquete</th>
+        <th>Estado</th>
+        <th>Precio</th>
+        <th>Pagar</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let request of requestData">
+      <tr *ngIf="request.status !== 'Pagado'"  >
+        <td><input type="checkbox" /></td>
+        <td>{{ request.carrierName }}</td>
+        <td>{{ request.packageDescription }}</td>
+        <td>{{ request.status }}</td>
+
+          <td *ngIf="request.status === 'Cotizado'">S/. {{ request.price }}</td>
+          <td *ngIf="request.status === 'Pendiente'">Pendiente</td>
+
+        <td *ngIf="request.status === 'Cotizado'">
+          <div
+            class="pay-circle"
+            [routerLink]="['/entrepreneur/payment-gateway', request.id]"
+          ></div>
+        </td>
+        <td *ngIf="request.status !== 'Cotizado'">
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Cancel Button -->
+  <div class="button-container">
+    <button class="cancel-button" [routerLink]="['/entrepreneur/home']">
+      Cancelar
+    </button>
+  </div>
+</div>

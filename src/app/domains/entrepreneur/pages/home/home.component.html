@@ -1,0 +1,51 @@
+<div class="home-container">
+  <!-- Header Section -->
+  <div class="header">
+    <img
+      src="assets/images/Imagen_Perfil.png"
+      alt="Boat"
+      class="header-image"
+      height="100"
+      width="100"
+    />
+    <h1>{{entrepreneurName}}</h1>
+    <div class="header-icons">
+      <img src="assets/images/globe.png" alt="Globe" class="header-icon" />
+      <img src="assets/images/logout.png" alt="Logout" class="header-icon" (click)="logout()"/>
+    </div>
+  </div>
+
+  <!-- Options Section -->
+  <div class="options">
+    <a class="option-card" [routerLink]="['/entrepreneur/search-carriers']">
+      <div class="icon-container">
+        <img
+          src="assets/images/empresas_boton.png"
+          alt="Transportistas"
+          class="option-icon"
+        />
+      </div>
+      <p class="option-title">Búsqueda de empresas transportistas</p>
+    </a>
+    <a class="option-card" [routerLink]="['/entrepreneur/request-status']">
+      <div class="icon-container">
+        <img
+          src="assets/images/solicitudes_boton.png"
+          alt="Estado"
+          class="option-icon"
+        />
+      </div>
+      <p class="option-title">Estado de Solicitudes</p>
+    </a>
+    <a class="option-card" [routerLink]="['/entrepreneur/hired-services']">
+      <div class="icon-container">
+        <img
+          src="assets/images/servicios_boton.png"
+          alt="Servicios"
+          class="option-icon"
+        />
+      </div>
+      <p class="option-title">Servicios Contratados</p>
+    </a>
+  </div>
+</div>

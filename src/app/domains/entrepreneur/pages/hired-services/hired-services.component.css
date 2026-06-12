@@ -1,0 +1,77 @@
+.hired-services-container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #1a2a44;
+  padding: 10px 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+.header-icon-left {
+  width: 50px;
+  height: 50px;
+}
+
+.header-right {
+  padding: 10px 20px;
+}
+
+.header-icon-right {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.header-icon-right:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Services Table Styles */
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-table th,
+.services-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.services-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.services-table tr:hover {
+  background-color: #f9f9f9;
+}

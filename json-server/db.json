@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "ianmq@gmail.com",
+      "password": "password123",
+      "type": "carrier"
+    },
+    {
+      "id": 2,
+      "email": "jose@gmail.com",
+      "password": "password123",
+      "type": "entrepreneur"
+    },
+    {
+      "email": "j123@gmail.com",
+      "password": "contra123",
+      "type": "carrier",
+      "id": 3
+    },
+    {
+      "email": "prueba123@gmail.com",
+      "password": "tuvi123",
+      "type": "entrepreneur",
+      "id": 4
+    }
+  ],
+  "carriers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Carrier 1",
+      "description": "Carrier 1 description"
+    },
+    {
+      "name": "Pepe",
+      "description": "LoreIpsum",
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "entrepreneurs": [
+    {
+      "id": 1,
+      "userId": 2,
+      "name": "Entrepreneur 1"
+    },
+    {
+      "name": "prueba123",
+      "userId": 4,
+      "id": 2
+    }
+  ],
+  "requests": [
+    {
+      "entrepreneurId": 2,
+      "entrepreneurName": "prueba123",
+      "carrierId": 1,
+      "carrierName": "Carrier 1",
+      "packageDescription": "Pescado",
+      "quantity": 2,
+      "weightTotal": 1,
+      "dimensions": {
+        "length": 1,
+        "width": 1,
+        "height": 2
+      },
+      "pickupLocation": "Micasa",
+      "deliveryLocation": "Lomas",
+      "pickupDateTime": "2025-05-16T19:35",
+      "price": 250,
+      "status": "Pagado",
+      "id": 1
+    },
+    {
+      "requestId": 1,
+      "entrepreneurId": 2,
+      "entrepreneurName": "prueba123",
+      "carrierId": 1,
+      "carrierName": "Carrier 1",
+      "packageDescription": "Pescado",
+      "pickupDateTime": "2025-05-16T19:35",
+      "carrierData": {
+        "vehicleBrand": "",
+        "plate": "",
+        "driver": ""
+      },
+      "status": "Pendiente",
+      "paymentMethod": "yape",
+      "id": 2
+    },
+    {
+      "entrepreneurId": 2,
+      "entrepreneurName": "prueba123",
+      "carrierId": 1,
+      "carrierName": "Carrier 1",
+      "packageDescription": "Pescado",
+      "quantity": 2,
+      "weightTotal": 1,
+      "dimensions": {
+        "length": 1,
+        "width": 1,
+        "height": 2
+      },
+      "pickupLocation": "Micasa",
+      "deliveryLocation": "Lomas",
+      "pickupDateTime": "2025-05-16T19:35",
+      "price": 200,
+      "status": "Pagado",
+      "id": 3
+    },
+    {
+      "entrepreneurId": 2,
+      "entrepreneurName": "prueba123",
+      "carrierId": 2,
+      "carrierName": "Pepe",
+      "packageDescription": "Pescado",
+      "quantity": 1,
+      "weightTotal": 1,
+      "dimensions": {
+        "length": 1,
+        "width": 1,
+        "height": 1
+      },
+      "pickupLocation": "Micasa",
+      "deliveryLocation": "Lomas",
+      "pickupDateTime": "2025-05-13T01:11",
+      "price": 0,
+      "status": "Pendiente",
+      "id": 4
+    }
+  ],
+  "receipts": [
+    {
+      "requestId": 3,
+      "holderName": "MarcoDiaz",
+      "cardNumber": "0002131023001203123",
+      "expiryDate": "2028-06",
+      "cvv": "231",
+      "paymentDate": "2025-05-14T01:18:29.169Z",
+      "id": 1
+    },
+    {
+      "requestId": 1,
+      "holderName": "MarcoDiaz",
+      "cardNumber": "1231231212",
+      "expiryDate": "2025-07",
+      "cvv": "123",
+      "paymentDate": "2025-05-14T11:09:06.980Z",
+      "id": 2
+    }
+  ],
+  "hiredServices": [
+    {
+      "requestId": 3,
+      "entrepreneurId": 2,
+      "entrepreneurName": "prueba123",
+      "carrierId": 1,
+      "carrierName": "Carrier 1",
+      "packageDescription": "Pescado",
+      "pickupDateTime": "2025-05-16T19:35",
+      "carrierData": {
+        "vehicleBrand": "porche",
+        "plate": "JKL-123",
+        "driver": "Joaquin Ramirez"
+      },
+      "status": "Confirmado",
+      "paymentMethod": "plin",
+      "id": 1
+    },
+    {
+      "requestId": 1,
+      "entrepreneurId": 2,
+      "entrepreneurName": "prueba123",
+      "carrierId": 1,
+      "carrierName": "Carrier 1",
+      "packageDescription": "Pescado",
+      "pickupDateTime": "2025-05-16T19:35",
+      "carrierData": {
+        "vehicleBrand": "Nissan",
+        "plate": "JFL-123",
+        "driver": "Jose Torres"
+      },
+      "status": "Confirmado",
+      "paymentMethod": "yape",
+      "id": 2
+    }
+  ]
+}

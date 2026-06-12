@@ -1,0 +1,43 @@
+<div class="home-container">
+    <!-- Header Section -->
+    <div class="header">
+        <img
+                src="assets/images/Imagen_Perfil.png"
+                alt="Boat"
+                class="header-image"
+                height="100"
+                width="100"
+        />
+        <h1>{{carrierName}}</h1>
+        <div class="header-icons">
+            <img src="assets/images/globe.png" alt="Globe" class="header-icon" />
+            <img src="assets/images/logout.png" alt="Logout" class="header-icon"
+                 (click)="logout()"
+            />
+        </div>
+    </div>
+
+    <!-- Options Section -->
+    <div class="options">
+        <a class="option-card" [routerLink]="['/carrier/requests']">
+            <div class="icon-container">
+                <img
+                        src="assets/images/image5.png"
+                        alt="Solicitudes para Cotizar"
+                        class="option-icon"
+                />
+            </div>
+            <p class="option-title">Solicitudes para Cotizar</p>
+        </a>
+        <a class="option-card" [routerLink]="['/carrier/confirmed-services']">
+            <div class="icon-container">
+                <img
+                        src="assets/images/image6.png"
+                        alt="Servicio Confirmado"
+                        class="option-icon"
+                />
+            </div>
+            <p class="option-title">Servicio Confirmado</p>
+        </a>
+    </div>
+</div>

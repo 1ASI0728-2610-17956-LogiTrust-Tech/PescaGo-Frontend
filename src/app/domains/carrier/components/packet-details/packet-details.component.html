@@ -1,0 +1,48 @@
+<mat-dialog-content class="shipment-container">
+    <div class="icon-section">
+        <img src="./assets/images/image22.png" alt="Paquetes" class="package-icon" />
+    </div>
+
+    <div class="details-section">
+
+        <div class="form-row">
+            <div class="info-box full-width">
+                Peso total del envío (kg): {{data.request.weightTotal}}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="info-box full-width">
+                Descripción del contenido: {{ data.request.packageDescription }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="info-box">
+                Cantidad de paquetes: {{ data.request.quantity }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="info-box">
+                Alto: {{ data.request.dimensions.height }} cm
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="info-box">
+                Largo: {{ data.request.dimensions.length }} cm
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="info-box">
+                Ancho: {{ data.request.dimensions.width }} cm
+            </div>
+        </div>
+    </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button color="primary" (click)="closeDialog()">Cerrar</button>
+</mat-dialog-actions>

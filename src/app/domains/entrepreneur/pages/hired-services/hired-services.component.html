@@ -1,0 +1,48 @@
+<div class="hired-services-container">
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <img
+        src="assets/images/servicios_boton.png"
+        alt="boxes"
+        class="header-icon-left"
+      />
+      <h1>Servicios Contratados</h1>
+    </div>
+
+    <div class="header-right">
+      <a [routerLink]="['/entrepreneur/home']">
+        <img
+          src="assets/images/home-icon.png"
+          alt="Home"
+          class="header-icon-right"
+        />
+      </a>
+    </div>
+  </div>
+
+  <!-- Services Table -->
+  <table class="services-table">
+    <thead>
+      <tr>
+        <th>Nombre de las Empresas</th>
+        <th>Descripción del Paquete</th>
+        <th>Detalles del Vehículo</th>
+        <th>Detalles del Conductor</th>
+        <th>Fecha y Hora de la Solicitud</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let service of hiredServices">
+      <tr *ngIf="service.status === 'Confirmado'" >
+        <td>{{ service.carrierName }}</td>
+        <td>{{ service.packageDescription }}</td>
+        <td>
+            {{ service.carrierData.vehicleBrand }}
+            {{ service.carrierData.plate }}
+        </td>
+        <td>{{ service.carrierData.driver }}</td>
+        <td>{{ service.pickupDateTime | date : "short" }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

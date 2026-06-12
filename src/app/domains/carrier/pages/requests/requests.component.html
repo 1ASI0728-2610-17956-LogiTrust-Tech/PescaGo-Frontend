@@ -1,0 +1,76 @@
+<div class="request-status-container">
+    <!-- Header -->
+    <div class="header">
+        <div class="header-left">
+            <img
+                    src="assets/images/solicitudes_boton.png"
+                    alt="Solicitudes"
+                    class="header-icon-left"
+            />
+            <h1>Solicitudes para Cotizar</h1>
+        </div>
+        <div class="header-right">
+            <a [routerLink]="['/carrier/home']">
+                <img
+                        src="assets/images/home-icon.png"
+                        alt="Home"
+                        class="header-icon-right"
+                />
+            </a>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <table class="status-table">
+        <thead>
+        <tr>
+            <th></th>
+            <th>Nombre del Empresario Pesquero</th>
+            <th>Ubicación de Recojo</th>
+            <th>Ubicación de Entrega</th>
+            <th>Fecha y Hora de Recojo</th>
+            <th>Detalles del Paquete</th>
+            <th>Cotizar</th>
+            <th>Respuesta de la Cotización</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let request of requestData">
+            <td><input type="checkbox" /></td>
+            <td>{{ request.entrepreneurName }}</td>
+            <td>{{ request.pickupLocation }}</td>
+            <td>{{ request.deliveryLocation }}</td>
+            <td>{{ request.pickupDateTime }}</td>
+            <td>
+                <img
+                        src="assets/images/image22.png"
+                        class="pay-package"
+                        alt="Detalles del Paquete"
+                        (click)="openPacketDetails(request)"
+                />
+            </td>
+            <td *ngIf="request.status === 'Pendiente'">
+                <div
+                        class="pay-circle"
+                        alt="Detalles del Paquete"
+                        (click)="openOfferedPrice(request)"
+                ></div>
+            </td>
+            <td *ngIf="request.status === 'Cotizado'|| request.status === 'Aceptado'">
+                Cotizado en S/. {{ request.price }}
+            </td>
+            <td *ngIf="request.status === 'Pagado'">
+            </td>
+            <td *ngIf="request.status === 'Cotizado'">Esperando respuesta</td>
+            <td *ngIf="request.status !== 'Cotizado'">{{ request.status }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Cancel Button -->
+    <div class="button-container">
+        <button class="cancel-button" [routerLink]="['/carrier/home']">
+            Cancelar
+        </button>
+    </div>
+</div>

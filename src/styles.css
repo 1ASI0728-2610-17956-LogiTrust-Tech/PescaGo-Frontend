@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.carrier-packet-details-dialog-container {
+  width: 600px !important;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.carrier-offered-price-dialog-container {
+  width: 600px !important;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.carrier-shipping-info-dialog-container {
+  width: 1200px !important;
+  height: 800px !important;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  max-width: none !important;
+  max-height: none !important;
+}

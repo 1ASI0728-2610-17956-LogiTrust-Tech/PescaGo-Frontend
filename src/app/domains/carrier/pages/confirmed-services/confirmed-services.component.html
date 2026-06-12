@@ -1,0 +1,74 @@
+<div class="request-status-container">
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <img
+        src="assets/images/solicitudes_boton.png"
+        alt="Solicitudes"
+        class="header-icon-left"
+      />
+      <h1>Servicio Confirmado</h1>
+    </div>
+    <div class="header-right">
+      <a [routerLink]="['/carrier/home']">
+        <img
+          src="assets/images/home-icon.png"
+          alt="Home"
+          class="header-icon-right"
+        />
+      </a>
+    </div>
+  </div>
+
+    <!-- Table -->
+    <table class="status-table">
+        <thead>
+        <tr>
+            <th>Nombre del Empresario Pesquero</th>
+            <th>Ubicación de Recojo</th>
+            <th>Ubicación de Entrega</th>
+            <th>Fecha y Hora de Recojo</th>
+            <th>Detalles del Paquete</th>
+            <th>Tipo de Pago</th>
+            <th>Información de envio</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let service of hiredServices">
+            <td>{{ service.entrepreneurName }}</td>
+            <td>{{ getRequestForHiredService(service)?.pickupLocation }}</td>
+            <td>{{ getRequestForHiredService(service)?.deliveryLocation }}</td>
+            <td>{{ service.pickupDateTime }}</td>
+            <td>
+                <img
+                        src="assets/images/image22.png"
+                        class="pay-package"
+                        alt="Detalles del Paquete"
+                        (click)="openPacketDetails(getRequestForHiredService(service))"
+                >
+            </td>
+            <td>{{ service.paymentMethod }}</td>
+            <td *ngIf="service.status === 'Pendiente'">
+                <div
+                        class="info-circle"
+                        (click)="openShippingInfo(service)"
+                ></div>
+            </td>
+            <td *ngIf="service.status === 'Confirmado'">
+                <div
+                        class="info-circle"
+                >
+                    <mat-icon >check</mat-icon>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+  <!-- Cancel Button -->
+  <div class="button-container">
+    <button class="cancel-button" [routerLink]="['/carrier/home']">
+      Cancelar
+    </button>
+  </div>
+</div>

@@ -1,0 +1,116 @@
+.home-container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    justify-content: flex-start; /* Cambiado de center a flex-start */
+}
+
+.header {
+    background-color: #1a2a44; /* Azul oscuro como en la imagen */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+}
+
+.header-icons {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.header-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer; /* Para poder fingir que es un botón */
+}
+
+/* Modificación para centrar los cards */
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    flex-grow: 1; /* Permite que crezca para ocupar espacio disponible */
+    align-items: center; /* Centra verticalmente los items */
+    background-color: #e8f1ff; /* Fondo celeste claro */
+}
+
+.option-card {
+    background-color: #d1e4ff; /* Un azul más claro para las tarjetas */
+    color: black;
+    width: 240px;
+    height: 280px; /* Ajuste de altura para que se vea como en la imagen */
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #bccee7; /* Un poco más oscuro al hacer hover */
+}
+
+.icon-container {
+    background-color: transparent;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.option-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Selector específico para el h1 que no está en el header */
+.options h1 {
+    color: #333;
+    margin-bottom: 40px;
+}

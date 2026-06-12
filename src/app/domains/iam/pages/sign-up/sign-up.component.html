@@ -1,0 +1,42 @@
+<div class="selection-container">
+  <div class="header-section">
+    <img
+      ngSrc="/assets/image32.png"
+      alt="PescaGo Logo"
+      class="logo"
+      height="201"
+      width="201"
+    />
+    <h1 class="title">PescaGo</h1>
+  </div>
+
+  <div class="options-section">
+    <!-- Opción Empresa de Transportes -->
+    <div class="option-card" (click)="navigateTo('carrier')">
+      <div class="icon-container">
+        <img
+          ngSrc="/assets/image19.png"
+          alt="Empresa de Transportes"
+          class="option-icon"
+          height="217"
+          width="217"
+        />
+      </div>
+      <div class="option-label">Empresa de Transportes</div>
+    </div>
+
+    <!-- Opción Emprendedor Pesquero -->
+    <div class="option-card" (click)="navigateTo('entrepreneur')">
+      <div class="icon-container">
+        <img
+          ngSrc="/assets/image35.png"
+          alt="Emprendedor Pesquero"
+          class="option-icon"
+          height="217"
+          width="217"
+        />
+      </div>
+      <div class="option-label">Emprendedor Pesquero</div>
+    </div>
+  </div>
+</div>

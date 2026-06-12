@@ -1,0 +1,43 @@
+<div class="search-carriers-container">
+  <!-- Header with Filter -->
+  <div class="header">
+    <input
+      type="text"
+      class="filter-input"
+      placeholder="Filtro por Nombre"
+      [(ngModel)]="filterText"
+      (input)="filterCarriers()"
+    />
+    <a [routerLink]="['/entrepreneur/home']">
+      <img src="assets/images/home-icon.png" alt="Home" class="header-icon" />
+    </a>
+  </div>
+
+  <!-- Carriers List -->
+  <div class="carriers-list">
+    <div class="carrier-item" *ngFor="let carrier of filteredCarriers">
+      <input type="checkbox" [(ngModel)]="carrier.selected" />
+      <img
+        src="assets/images/truck-1.png"
+        alt="{{ carrier.name }}"
+        class="carrier-image"
+      />
+      <div class="carrier-info">
+        <div class="carrier-details">
+          <h3>{{ carrier.name }}</h3>
+          <p>{{ carrier.description }}</p>
+        </div>
+        <div class="carrier-districts">
+          <p *ngFor="let district of carrier.districts">{{ district }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Submit Button -->
+  <div class="button-container">
+    <button class="submit-button" (click)="submitRequest()">
+      Enviar Solicitud
+    </button>
+  </div>
+</div>

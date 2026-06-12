@@ -1,0 +1,42 @@
+<div class="payment-gateway-container">
+  <!-- Header -->
+  <div class="header">
+    <h1>Pasarela de Pagos</h1>
+    <div class="header-right">
+      <a (click)="goBack()" style="cursor: pointer">
+        <img
+          src="assets/images/home-icon.png"
+          alt="Back"
+          class="header-icon-right"
+        />
+      </a>
+    </div>
+  </div>
+
+  <!-- Payment Methods -->
+  <div class="payment-methods-grid">
+    <div class="method" (click)="selectMethod('visa')">
+      <img src="assets/images/visa.png" alt="Visa" />
+    </div>
+    <div class="method" (click)="selectMethod('mastercard')">
+      <img src="assets/images/mastercard.png" alt="MasterCard" />
+    </div>
+    <div class="method" (click)="selectMethod('yape')">
+      <img src="assets/images/yape.png" alt="Yape" />
+    </div>
+    <div class="method" (click)="selectMethod('plin')">
+      <img src="assets/images/plin.png" alt="Plin" />
+    </div>
+  </div>
+
+  <!-- Modal de Formulario de Pago -->
+  <div class="modal" *ngIf="showPaymentModal" >
+    <div class="modal-content">
+      <app-payment-form
+        [requestId]="requestId"
+        [paymentMethod]="paymentMethod"
+        (closeModal)="closePaymentModal()"
+      ></app-payment-form>
+    </div>
+  </div>
+</div>

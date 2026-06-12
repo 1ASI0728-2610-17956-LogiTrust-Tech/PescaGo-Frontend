@@ -1,0 +1,4 @@
+para arrancar el servidor tienes que
+abrir en termina la carpeta server y en la terminal ejecutar el siguiente comando:
+
+	json-server --watch db.json

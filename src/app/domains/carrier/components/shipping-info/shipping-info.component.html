@@ -1,0 +1,64 @@
+<mat-dialog-content class="shipment-container">
+    <div class="icon-section">
+        <img src="./assets/images/image25.png" alt="Paquetes" class="package-icon" />
+        <h1>Información de Envío</h1>
+    </div>
+
+    <div class="details-section">
+        <div class="form-row">
+
+            <div class="info-box full-width">
+                <!-- Ícono de Cámara -->
+                <div class="icon-container-header">
+                    <h1>Foto del vehiculo</h1>
+                </div>
+                <div class="icon-container" (click)="triggerFileInput1()">
+                    <img [src]="imagePreview1 || '/assets/image37.png'" alt="Upload Image" class="icon" />
+                    <input type="file" #fileInput1 accept="image/*" (change)="onFileSelected1($event)" hidden />
+                </div>
+            </div>
+
+            <div class="info-box full-width">
+                <mat-form-field appearance="outline">
+                    <mat-label>Tipo de Vehículo</mat-label>
+                    <input matInput type="text" [(ngModel)]="service.carrierData.vehicleBrand"/>
+                    <mat-icon matIconSuffix>directions_car</mat-icon>
+                </mat-form-field>
+            </div>
+
+            <div class="info-box full-width">
+                <mat-form-field appearance="outline">
+                    <mat-label>Placa de vehículo</mat-label>
+                    <input matInput type="text" [(ngModel)]="service.carrierData.plate"/>
+                    <mat-icon matIconSuffix>123</mat-icon>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="form-row">
+
+            <div class="info-box full-width">
+                <!-- Ícono de Cámara -->
+                <div class="icon-container-header">
+                    <h1>Foto del Conductor</h1>
+                </div>
+                <div class="icon-container" (click)="triggerFileInput2()">
+                    <img [src]="imagePreview2 || '/assets/image37.png'" alt="Upload Image" class="icon" />
+                    <input type="file" #fileInput2 accept="image/*" (change)="onFileSelected2($event)" hidden />
+                </div>
+            </div>
+            <div class="info-box full-width">
+                <mat-form-field appearance="outline">
+                    <mat-label>Nombre del Conductor</mat-label>
+                    <input matInput type="text" [(ngModel)]="service.carrierData.driver"/>
+                    <mat-icon matIconSuffix>person</mat-icon>
+                </mat-form-field>
+            </div>
+        </div>
+    </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button color="primary" (click)="closeDialog()">Salir</button>
+    <button mat-button color="primary" (click)="sendShippingInfo()">Enviar</button>
+</mat-dialog-actions>

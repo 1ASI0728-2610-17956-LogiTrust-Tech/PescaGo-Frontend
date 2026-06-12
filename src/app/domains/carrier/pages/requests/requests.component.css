@@ -1,0 +1,158 @@
+.request-status-container {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #1a2a44;*/ /* Azul oscuro como en la imagen */
+    color: white;
+    /*padding: 10px 20px;*/ /* Espacio interior para todoel header */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #1a2a44; /* Azul oscuro como en la imagen */
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+.header-icon-left {
+    width: 50px;
+    height: 50px;
+}
+
+.header-right {
+    padding: 10px 20px;
+}
+.header-icon-right {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.header-icon-right:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Table Styles */
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.status-table th,
+.status-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.status-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.status-table td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.status-table .pay-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.status-table .pay-button:hover {
+    background-color: #45a049;
+}
+
+/* Button Container Styles */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cancel-button {
+    background-color: #352723; /* Marrón como en la imagen */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cancel-button:hover {
+    background-color: #644a43;
+}
+
+.pay-circle {
+    width: 24px;
+    height: 24px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-package {
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-package:hover {
+    background-color: #999999;
+}
+
+.pay-circle:hover {
+    background-color: #999999;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #1a2a44;
+}
