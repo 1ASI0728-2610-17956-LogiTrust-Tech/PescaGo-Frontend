@@ -1,3 +1,3 @@
 export const environment = {
-    apiUrl: 'https://pescago-backend-latest.onrender.com/api/v1'
+    apiUrl: 'http://localhost:8080/api/v1'
 };
