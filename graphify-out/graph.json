@@ -150,7 +150,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "angular_build_options",
-      "community": 18,
+      "community": 17,
       "norm_label": "options"
     },
     {
@@ -160,7 +160,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "angular_options_outputpath",
-      "community": 18,
+      "community": 17,
       "norm_label": "outputpath"
     },
     {
@@ -170,7 +170,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "angular_options_index",
-      "community": 18,
+      "community": 17,
       "norm_label": "index"
     },
     {
@@ -180,7 +180,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "angular_options_browser",
-      "community": 18,
+      "community": 17,
       "norm_label": "browser"
     },
     {
@@ -190,7 +190,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "angular_options_polyfills",
-      "community": 18,
+      "community": 17,
       "norm_label": "polyfills"
     },
     {
@@ -200,7 +200,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "angular_options_tsconfig",
-      "community": 18,
+      "community": 17,
       "norm_label": "tsconfig"
     },
     {
@@ -210,7 +210,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "angular_options_assets",
-      "community": 18,
+      "community": 17,
       "norm_label": "assets"
     },
     {
@@ -220,7 +220,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "angular_options_styles",
-      "community": 18,
+      "community": 17,
       "norm_label": "styles"
     },
     {
@@ -230,7 +230,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "angular_options_scripts",
-      "community": 18,
+      "community": 17,
       "norm_label": "scripts"
     },
     {
@@ -410,7 +410,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "angular_architect_test",
-      "community": 18,
+      "community": 17,
       "norm_label": "test"
     },
     {
@@ -420,7 +420,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "angular_test_builder",
-      "community": 18,
+      "community": 17,
       "norm_label": "builder"
     },
     {
@@ -430,7 +430,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "angular_test_options",
-      "community": 18,
+      "community": 17,
       "norm_label": "options"
     },
     {
@@ -877,7 +877,7 @@
       "label": "appConfig",
       "file_type": "code",
       "source_file": "src/app/app.config.ts",
-      "source_location": "L6",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "app_app_config_appconfig",
       "community": 7,
@@ -897,11 +897,301 @@
       "label": "routes",
       "file_type": "code",
       "source_file": "src/app/app.routes.ts",
-      "source_location": "L17",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "app_app_routes_routes",
       "community": 7,
       "norm_label": "routes"
+    },
+    {
+      "label": "auth-v2.guard.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_auth_v2_guard_spec",
+      "community": 4,
+      "norm_label": "auth-v2.guard.spec.ts"
+    },
+    {
+      "label": "auth-v2.guard.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.guard.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_auth_v2_guard",
+      "community": 4,
+      "norm_label": "auth-v2.guard.ts"
+    },
+    {
+      "label": "authV2Guard()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.guard.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "auth_auth_v2_guard_authv2guard",
+      "community": 4,
+      "norm_label": "authv2guard()"
+    },
+    {
+      "label": "auth-v2.models.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_auth_v2_models",
+      "community": 4,
+      "norm_label": "auth-v2.models.ts"
+    },
+    {
+      "label": "CanonicalRole",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_auth_v2_models_canonicalrole",
+      "community": 4,
+      "norm_label": "canonicalrole"
+    },
+    {
+      "label": "BusinessProfile",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "auth_auth_v2_models_businessprofile",
+      "community": 4,
+      "norm_label": "businessprofile"
+    },
+    {
+      "label": "SessionProfile",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "auth_auth_v2_models_sessionprofile",
+      "community": 4,
+      "norm_label": "sessionprofile"
+    },
+    {
+      "label": "LoginProfile",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "auth_auth_v2_models_loginprofile",
+      "community": 4,
+      "norm_label": "loginprofile"
+    },
+    {
+      "label": "LoginResponse",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "auth_auth_v2_models_loginresponse",
+      "community": 4,
+      "norm_label": "loginresponse"
+    },
+    {
+      "label": "auth-v2.service.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_spec",
+      "community": 4,
+      "norm_label": "auth-v2.service.spec.ts"
+    },
+    {
+      "label": "auth-v2.service.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service",
+      "community": 4,
+      "norm_label": "auth-v2.service.ts"
+    },
+    {
+      "label": "AuthV2Service",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service",
+      "community": 4,
+      "norm_label": "authv2service"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_constructor",
+      "community": 4,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_login",
+      "community": 4,
+      "norm_label": ".login()"
+    },
+    {
+      "label": ".loadProfile()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_loadprofile",
+      "community": 4,
+      "norm_label": ".loadprofile()"
+    },
+    {
+      "label": ".logoutV2()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_logoutv2",
+      "community": 4,
+      "norm_label": ".logoutv2()"
+    },
+    {
+      "label": ".getAccessToken()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_getaccesstoken",
+      "community": 4,
+      "norm_label": ".getaccesstoken()"
+    },
+    {
+      "label": ".getProfile()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_getprofile",
+      "community": 4,
+      "norm_label": ".getprofile()"
+    },
+    {
+      "label": ".isAuthenticated()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_isauthenticated",
+      "community": 4,
+      "norm_label": ".isauthenticated()"
+    },
+    {
+      "label": ".hasRole()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_hasrole",
+      "community": 4,
+      "norm_label": ".hasrole()"
+    },
+    {
+      "label": ".persistToken()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_persisttoken",
+      "community": 4,
+      "norm_label": ".persisttoken()"
+    },
+    {
+      "label": ".persistProfile()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_persistprofile",
+      "community": 4,
+      "norm_label": ".persistprofile()"
+    },
+    {
+      "label": ".toSessionProfileFromLogin()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin",
+      "community": 4,
+      "norm_label": ".tosessionprofilefromlogin()"
+    },
+    {
+      "label": "carrier-role.guard.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_carrier_role_guard_spec",
+      "community": 4,
+      "norm_label": "carrier-role.guard.spec.ts"
+    },
+    {
+      "label": "carrier-role.guard.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/carrier-role.guard.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auth_carrier_role_guard",
+      "community": 4,
+      "norm_label": "carrier-role.guard.ts"
+    },
+    {
+      "label": "carrierRoleGuard()",
+      "file_type": "code",
+      "source_file": "src/app/core/auth/carrier-role.guard.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "auth_carrier_role_guard_carrierroleguard",
+      "community": 4,
+      "norm_label": "carrierroleguard()"
+    },
+    {
+      "label": "auth-v2.interceptor.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "interceptors_auth_v2_interceptor_spec",
+      "community": 4,
+      "norm_label": "auth-v2.interceptor.spec.ts"
+    },
+    {
+      "label": "auth-v2.interceptor.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "interceptors_auth_v2_interceptor",
+      "community": 4,
+      "norm_label": "auth-v2.interceptor.ts"
+    },
+    {
+      "label": "authV2Interceptor()",
+      "file_type": "code",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "interceptors_auth_v2_interceptor_authv2interceptor",
+      "community": 4,
+      "norm_label": "authv2interceptor()"
     },
     {
       "label": "api.service.ts",
@@ -910,7 +1200,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_api_service",
-      "community": 4,
+      "community": 0,
       "norm_label": "api.service.ts"
     },
     {
@@ -940,7 +1230,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "services_api_service_apiservice_authenticateuser",
-      "community": 4,
+      "community": 0,
       "norm_label": ".authenticateuser()"
     },
     {
@@ -950,7 +1240,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "services_api_service_apiservice_registercarrier",
-      "community": 4,
+      "community": 0,
       "norm_label": ".registercarrier()"
     },
     {
@@ -960,7 +1250,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "services_api_service_apiservice_registerentrepreneur",
-      "community": 4,
+      "community": 0,
       "norm_label": ".registerentrepreneur()"
     },
     {
@@ -1417,7 +1707,7 @@
       "label": "HomeComponent",
       "file_type": "code",
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
-      "source_location": "L14",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent",
       "community": 0,
@@ -1427,7 +1717,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
-      "source_location": "L19",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
       "community": 0,
@@ -1437,7 +1727,7 @@
       "label": ".ngOnInit()",
       "file_type": "code",
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
-      "source_location": "L23",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_ngoninit",
       "community": 0,
@@ -1447,7 +1737,7 @@
       "label": ".logout()",
       "file_type": "code",
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
-      "source_location": "L32",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_logout",
       "community": 0,
@@ -1710,7 +2000,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component",
-      "community": 4,
+      "community": 0,
       "norm_label": "home.component.ts"
     },
     {
@@ -1720,7 +2010,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent",
-      "community": 4,
+      "community": 0,
       "norm_label": "homecomponent"
     },
     {
@@ -1730,7 +2020,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
-      "community": 4,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -1740,7 +2030,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_ngoninit",
-      "community": 4,
+      "community": 0,
       "norm_label": ".ngoninit()"
     },
     {
@@ -1750,7 +2040,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_logout",
-      "community": 4,
+      "community": 0,
       "norm_label": ".logout()"
     },
     {
@@ -1840,7 +2130,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_status_request_status_component_spec",
-      "community": 1,
+      "community": 3,
       "norm_label": "request-status.component.spec.ts"
     },
     {
@@ -1850,7 +2140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_status_request_status_component",
-      "community": 1,
+      "community": 3,
       "norm_label": "request-status.component.ts"
     },
     {
@@ -1860,7 +2150,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "request_status_request_status_component_requeststatuscomponent",
-      "community": 1,
+      "community": 3,
       "norm_label": "requeststatuscomponent"
     },
     {
@@ -1870,7 +2160,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "request_status_request_status_component_requeststatuscomponent_constructor",
-      "community": 1,
+      "community": 3,
       "norm_label": ".constructor()"
     },
     {
@@ -1880,7 +2170,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "request_status_request_status_component_requeststatuscomponent_ngoninit",
-      "community": 1,
+      "community": 3,
       "norm_label": ".ngoninit()"
     },
     {
@@ -1960,7 +2250,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "register_carrier_register_carrier_component_spec",
-      "community": 4,
+      "community": 0,
       "norm_label": "register-carrier.component.spec.ts"
     },
     {
@@ -1970,7 +2260,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "register_carrier_register_carrier_component",
-      "community": 4,
+      "community": 0,
       "norm_label": "register-carrier.component.ts"
     },
     {
@@ -1980,7 +2270,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "register_carrier_register_carrier_component_registercarriercomponent",
-      "community": 4,
+      "community": 0,
       "norm_label": "registercarriercomponent"
     },
     {
@@ -1990,7 +2280,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "register_carrier_register_carrier_component_registercarriercomponent_constructor",
-      "community": 4,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -2000,7 +2290,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "register_carrier_register_carrier_component_registercarriercomponent_triggerfileinput",
-      "community": 4,
+      "community": 0,
       "norm_label": ".triggerfileinput()"
     },
     {
@@ -2010,7 +2300,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "register_carrier_register_carrier_component_registercarriercomponent_onfileselected",
-      "community": 4,
+      "community": 0,
       "norm_label": ".onfileselected()"
     },
     {
@@ -2020,7 +2310,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "register_carrier_register_carrier_component_registercarriercomponent_onsubmit",
-      "community": 4,
+      "community": 0,
       "norm_label": ".onsubmit()"
     },
     {
@@ -2091,6 +2381,56 @@
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component_registerentreprenuercomponent_onsubmit",
       "community": 10,
+      "norm_label": ".onsubmit()"
+    },
+    {
+      "label": "sign-in-v2.component.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "sign_in_v2_sign_in_v2_component_spec",
+      "community": 4,
+      "norm_label": "sign-in-v2.component.spec.ts"
+    },
+    {
+      "label": "sign-in-v2.component.ts",
+      "file_type": "code",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "sign_in_v2_sign_in_v2_component",
+      "community": 4,
+      "norm_label": "sign-in-v2.component.ts"
+    },
+    {
+      "label": "SignInV2Component",
+      "file_type": "code",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "sign_in_v2_sign_in_v2_component_signinv2component",
+      "community": 4,
+      "norm_label": "signinv2component"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "sign_in_v2_sign_in_v2_component_signinv2component_constructor",
+      "community": 4,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".onSubmit()",
+      "file_type": "code",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "sign_in_v2_sign_in_v2_component_signinv2component_onsubmit",
+      "community": 4,
       "norm_label": ".onsubmit()"
     },
     {
@@ -2260,7 +2600,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "models_user_model",
-      "community": 4,
+      "community": 0,
       "norm_label": "user.model.ts"
     },
     {
@@ -2270,7 +2610,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "models_user_model_usercreate",
-      "community": 4,
+      "community": 0,
       "norm_label": "usercreate"
     },
     {
@@ -2280,7 +2620,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "models_user_model_user",
-      "community": 4,
+      "community": 0,
       "norm_label": "user"
     },
     {
@@ -2481,9 +2821,9 @@
       "source_file": "angular.json",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular",
-      "target": "angular_cli",
-      "confidence_score": 1.0
+      "target": "angular_cli"
     },
     {
       "relation": "contains",
@@ -2491,9 +2831,9 @@
       "source_file": "angular.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular",
-      "target": "angular_newprojectroot",
-      "confidence_score": 1.0
+      "target": "angular_newprojectroot"
     },
     {
       "relation": "contains",
@@ -2501,9 +2841,9 @@
       "source_file": "angular.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular",
-      "target": "angular_projects",
-      "confidence_score": 1.0
+      "target": "angular_projects"
     },
     {
       "relation": "contains",
@@ -2511,9 +2851,9 @@
       "source_file": "angular.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular",
-      "target": "angular_schema",
-      "confidence_score": 1.0
+      "target": "angular_schema"
     },
     {
       "relation": "contains",
@@ -2521,9 +2861,9 @@
       "source_file": "angular.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular",
-      "target": "angular_version",
-      "confidence_score": 1.0
+      "target": "angular_version"
     },
     {
       "relation": "contains",
@@ -2531,9 +2871,9 @@
       "source_file": "angular.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_projects",
-      "target": "angular_projects_pescago_frontend",
-      "confidence_score": 1.0
+      "target": "angular_projects_pescago_frontend"
     },
     {
       "relation": "contains",
@@ -2541,9 +2881,9 @@
       "source_file": "angular.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_projects_pescago_frontend",
-      "target": "angular_pescago_frontend_architect",
-      "confidence_score": 1.0
+      "target": "angular_pescago_frontend_architect"
     },
     {
       "relation": "contains",
@@ -2551,9 +2891,9 @@
       "source_file": "angular.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_projects_pescago_frontend",
-      "target": "angular_pescago_frontend_prefix",
-      "confidence_score": 1.0
+      "target": "angular_pescago_frontend_prefix"
     },
     {
       "relation": "contains",
@@ -2561,9 +2901,9 @@
       "source_file": "angular.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_projects_pescago_frontend",
-      "target": "angular_pescago_frontend_projecttype",
-      "confidence_score": 1.0
+      "target": "angular_pescago_frontend_projecttype"
     },
     {
       "relation": "contains",
@@ -2571,9 +2911,9 @@
       "source_file": "angular.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_projects_pescago_frontend",
-      "target": "angular_pescago_frontend_root",
-      "confidence_score": 1.0
+      "target": "angular_pescago_frontend_root"
     },
     {
       "relation": "contains",
@@ -2581,9 +2921,9 @@
       "source_file": "angular.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_projects_pescago_frontend",
-      "target": "angular_pescago_frontend_schematics",
-      "confidence_score": 1.0
+      "target": "angular_pescago_frontend_schematics"
     },
     {
       "relation": "contains",
@@ -2591,9 +2931,9 @@
       "source_file": "angular.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_projects_pescago_frontend",
-      "target": "angular_pescago_frontend_sourceroot",
-      "confidence_score": 1.0
+      "target": "angular_pescago_frontend_sourceroot"
     },
     {
       "relation": "contains",
@@ -2601,9 +2941,9 @@
       "source_file": "angular.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_pescago_frontend_architect",
-      "target": "angular_architect_build",
-      "confidence_score": 1.0
+      "target": "angular_architect_build"
     },
     {
       "relation": "contains",
@@ -2611,9 +2951,9 @@
       "source_file": "angular.json",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_pescago_frontend_architect",
-      "target": "angular_architect_extract_i18n",
-      "confidence_score": 1.0
+      "target": "angular_architect_extract_i18n"
     },
     {
       "relation": "contains",
@@ -2621,9 +2961,9 @@
       "source_file": "angular.json",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_pescago_frontend_architect",
-      "target": "angular_architect_serve",
-      "confidence_score": 1.0
+      "target": "angular_architect_serve"
     },
     {
       "relation": "contains",
@@ -2631,9 +2971,9 @@
       "source_file": "angular.json",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_pescago_frontend_architect",
-      "target": "angular_architect_test",
-      "confidence_score": 1.0
+      "target": "angular_architect_test"
     },
     {
       "relation": "contains",
@@ -2641,9 +2981,9 @@
       "source_file": "angular.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_build",
-      "target": "angular_build_builder",
-      "confidence_score": 1.0
+      "target": "angular_build_builder"
     },
     {
       "relation": "contains",
@@ -2651,9 +2991,9 @@
       "source_file": "angular.json",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_build",
-      "target": "angular_build_configurations",
-      "confidence_score": 1.0
+      "target": "angular_build_configurations"
     },
     {
       "relation": "contains",
@@ -2661,9 +3001,9 @@
       "source_file": "angular.json",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_build",
-      "target": "angular_build_defaultconfiguration",
-      "confidence_score": 1.0
+      "target": "angular_build_defaultconfiguration"
     },
     {
       "relation": "contains",
@@ -2671,9 +3011,9 @@
       "source_file": "angular.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_build",
-      "target": "angular_build_options",
-      "confidence_score": 1.0
+      "target": "angular_build_options"
     },
     {
       "relation": "contains",
@@ -2681,9 +3021,9 @@
       "source_file": "angular.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_assets",
-      "confidence_score": 1.0
+      "target": "angular_options_assets"
     },
     {
       "relation": "contains",
@@ -2691,9 +3031,9 @@
       "source_file": "angular.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_browser",
-      "confidence_score": 1.0
+      "target": "angular_options_browser"
     },
     {
       "relation": "contains",
@@ -2701,9 +3041,9 @@
       "source_file": "angular.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_index",
-      "confidence_score": 1.0
+      "target": "angular_options_index"
     },
     {
       "relation": "contains",
@@ -2711,9 +3051,9 @@
       "source_file": "angular.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_outputpath",
-      "confidence_score": 1.0
+      "target": "angular_options_outputpath"
     },
     {
       "relation": "contains",
@@ -2721,9 +3061,9 @@
       "source_file": "angular.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_polyfills",
-      "confidence_score": 1.0
+      "target": "angular_options_polyfills"
     },
     {
       "relation": "contains",
@@ -2731,9 +3071,9 @@
       "source_file": "angular.json",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_scripts",
-      "confidence_score": 1.0
+      "target": "angular_options_scripts"
     },
     {
       "relation": "contains",
@@ -2741,9 +3081,9 @@
       "source_file": "angular.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_styles",
-      "confidence_score": 1.0
+      "target": "angular_options_styles"
     },
     {
       "relation": "contains",
@@ -2751,9 +3091,9 @@
       "source_file": "angular.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_options",
-      "target": "angular_options_tsconfig",
-      "confidence_score": 1.0
+      "target": "angular_options_tsconfig"
     },
     {
       "relation": "contains",
@@ -2761,9 +3101,9 @@
       "source_file": "angular.json",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_test_options",
-      "target": "angular_options_polyfills",
-      "confidence_score": 1.0
+      "target": "angular_options_polyfills"
     },
     {
       "relation": "contains",
@@ -2771,9 +3111,9 @@
       "source_file": "angular.json",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_test_options",
-      "target": "angular_options_tsconfig",
-      "confidence_score": 1.0
+      "target": "angular_options_tsconfig"
     },
     {
       "relation": "contains",
@@ -2781,9 +3121,9 @@
       "source_file": "angular.json",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_test_options",
-      "target": "angular_options_assets",
-      "confidence_score": 1.0
+      "target": "angular_options_assets"
     },
     {
       "relation": "contains",
@@ -2791,9 +3131,9 @@
       "source_file": "angular.json",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_test_options",
-      "target": "angular_options_styles",
-      "confidence_score": 1.0
+      "target": "angular_options_styles"
     },
     {
       "relation": "contains",
@@ -2801,9 +3141,9 @@
       "source_file": "angular.json",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_test_options",
-      "target": "angular_options_scripts",
-      "confidence_score": 1.0
+      "target": "angular_options_scripts"
     },
     {
       "relation": "contains",
@@ -2811,9 +3151,9 @@
       "source_file": "angular.json",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_configurations",
-      "target": "angular_configurations_development",
-      "confidence_score": 1.0
+      "target": "angular_configurations_development"
     },
     {
       "relation": "contains",
@@ -2821,9 +3161,9 @@
       "source_file": "angular.json",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_build_configurations",
-      "target": "angular_configurations_production",
-      "confidence_score": 1.0
+      "target": "angular_configurations_production"
     },
     {
       "relation": "contains",
@@ -2831,9 +3171,9 @@
       "source_file": "angular.json",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_configurations_production",
-      "target": "angular_production_budgets",
-      "confidence_score": 1.0
+      "target": "angular_production_budgets"
     },
     {
       "relation": "contains",
@@ -2841,9 +3181,9 @@
       "source_file": "angular.json",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_configurations_production",
-      "target": "angular_production_buildtarget",
-      "confidence_score": 1.0
+      "target": "angular_production_buildtarget"
     },
     {
       "relation": "contains",
@@ -2851,9 +3191,9 @@
       "source_file": "angular.json",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_configurations_production",
-      "target": "angular_production_outputhashing",
-      "confidence_score": 1.0
+      "target": "angular_production_outputhashing"
     },
     {
       "relation": "contains",
@@ -2861,9 +3201,9 @@
       "source_file": "angular.json",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_serve_configurations",
-      "target": "angular_configurations_production",
-      "confidence_score": 1.0
+      "target": "angular_configurations_production"
     },
     {
       "relation": "contains",
@@ -2871,9 +3211,9 @@
       "source_file": "angular.json",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_configurations_development",
-      "target": "angular_development_buildtarget",
-      "confidence_score": 1.0
+      "target": "angular_development_buildtarget"
     },
     {
       "relation": "contains",
@@ -2881,9 +3221,9 @@
       "source_file": "angular.json",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_configurations_development",
-      "target": "angular_development_extractlicenses",
-      "confidence_score": 1.0
+      "target": "angular_development_extractlicenses"
     },
     {
       "relation": "contains",
@@ -2891,9 +3231,9 @@
       "source_file": "angular.json",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_configurations_development",
-      "target": "angular_development_optimization",
-      "confidence_score": 1.0
+      "target": "angular_development_optimization"
     },
     {
       "relation": "contains",
@@ -2901,9 +3241,9 @@
       "source_file": "angular.json",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_configurations_development",
-      "target": "angular_development_sourcemap",
-      "confidence_score": 1.0
+      "target": "angular_development_sourcemap"
     },
     {
       "relation": "contains",
@@ -2911,9 +3251,9 @@
       "source_file": "angular.json",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_serve_configurations",
-      "target": "angular_configurations_development",
-      "confidence_score": 1.0
+      "target": "angular_configurations_development"
     },
     {
       "relation": "contains",
@@ -2921,9 +3261,9 @@
       "source_file": "angular.json",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_serve",
-      "target": "angular_serve_builder",
-      "confidence_score": 1.0
+      "target": "angular_serve_builder"
     },
     {
       "relation": "contains",
@@ -2931,9 +3271,9 @@
       "source_file": "angular.json",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_serve",
-      "target": "angular_serve_configurations",
-      "confidence_score": 1.0
+      "target": "angular_serve_configurations"
     },
     {
       "relation": "contains",
@@ -2941,9 +3281,9 @@
       "source_file": "angular.json",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_serve",
-      "target": "angular_serve_defaultconfiguration",
-      "confidence_score": 1.0
+      "target": "angular_serve_defaultconfiguration"
     },
     {
       "relation": "contains",
@@ -2951,9 +3291,9 @@
       "source_file": "angular.json",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_extract_i18n",
-      "target": "angular_extract_i18n_builder",
-      "confidence_score": 1.0
+      "target": "angular_extract_i18n_builder"
     },
     {
       "relation": "contains",
@@ -2961,9 +3301,9 @@
       "source_file": "angular.json",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_test",
-      "target": "angular_test_builder",
-      "confidence_score": 1.0
+      "target": "angular_test_builder"
     },
     {
       "relation": "contains",
@@ -2971,9 +3311,9 @@
       "source_file": "angular.json",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_architect_test",
-      "target": "angular_test_options",
-      "confidence_score": 1.0
+      "target": "angular_test_options"
     },
     {
       "relation": "contains",
@@ -2981,9 +3321,9 @@
       "source_file": "angular.json",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "angular_cli",
-      "target": "angular_cli_analytics",
-      "confidence_score": 1.0
+      "target": "angular_cli_analytics"
     },
     {
       "relation": "imports",
@@ -2992,9 +3332,9 @@
       "source_location": "L30",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "package_devdependencies_angular_cli",
-      "target": "angular_cli",
-      "confidence_score": 1.0
+      "target": "angular_cli"
     },
     {
       "relation": "contains",
@@ -3002,9 +3342,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -3012,9 +3352,9 @@
       "source_file": "package.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_devdependencies",
-      "confidence_score": 1.0
+      "target": "package_devdependencies"
     },
     {
       "relation": "contains",
@@ -3022,9 +3362,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
+      "target": "package_name"
     },
     {
       "relation": "contains",
@@ -3032,9 +3372,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_private",
-      "confidence_score": 1.0
+      "target": "package_private"
     },
     {
       "relation": "contains",
@@ -3042,9 +3382,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
+      "target": "package_scripts"
     },
     {
       "relation": "contains",
@@ -3052,9 +3392,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
+      "target": "package_version"
     },
     {
       "relation": "contains",
@@ -3062,9 +3402,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_build",
-      "confidence_score": 1.0
+      "target": "package_scripts_build"
     },
     {
       "relation": "contains",
@@ -3072,9 +3412,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_ng",
-      "confidence_score": 1.0
+      "target": "package_scripts_ng"
     },
     {
       "relation": "contains",
@@ -3082,9 +3422,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_start",
-      "confidence_score": 1.0
+      "target": "package_scripts_start"
     },
     {
       "relation": "contains",
@@ -3092,9 +3432,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test",
-      "confidence_score": 1.0
+      "target": "package_scripts_test"
     },
     {
       "relation": "contains",
@@ -3102,9 +3442,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_watch",
-      "confidence_score": 1.0
+      "target": "package_scripts_watch"
     },
     {
       "relation": "contains",
@@ -3112,9 +3452,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_animations",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_animations"
     },
     {
       "relation": "contains",
@@ -3122,9 +3462,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_cdk",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_cdk"
     },
     {
       "relation": "contains",
@@ -3132,9 +3472,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_common",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_common"
     },
     {
       "relation": "contains",
@@ -3142,9 +3482,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_compiler",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_compiler"
     },
     {
       "relation": "contains",
@@ -3152,9 +3492,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_core",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_core"
     },
     {
       "relation": "contains",
@@ -3162,9 +3502,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_forms",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_forms"
     },
     {
       "relation": "contains",
@@ -3172,9 +3512,9 @@
       "source_file": "package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_material",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_material"
     },
     {
       "relation": "contains",
@@ -3182,9 +3522,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_platform_browser",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_platform_browser"
     },
     {
       "relation": "contains",
@@ -3192,9 +3532,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_platform_browser_dynamic",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_platform_browser_dynamic"
     },
     {
       "relation": "contains",
@@ -3202,9 +3542,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_angular_router",
-      "confidence_score": 1.0
+      "target": "package_dependencies_angular_router"
     },
     {
       "relation": "contains",
@@ -3212,9 +3552,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_json_server",
-      "confidence_score": 1.0
+      "target": "package_dependencies_json_server"
     },
     {
       "relation": "contains",
@@ -3222,9 +3562,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_rxjs",
-      "confidence_score": 1.0
+      "target": "package_dependencies_rxjs"
     },
     {
       "relation": "contains",
@@ -3232,9 +3572,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_tslib",
-      "confidence_score": 1.0
+      "target": "package_dependencies_tslib"
     },
     {
       "relation": "contains",
@@ -3242,9 +3582,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_zone_js",
-      "confidence_score": 1.0
+      "target": "package_dependencies_zone_js"
     },
     {
       "relation": "contains",
@@ -3252,9 +3592,9 @@
       "source_file": "package.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_angular_cli",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_angular_cli"
     },
     {
       "relation": "contains",
@@ -3262,9 +3602,9 @@
       "source_file": "package.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_angular_compiler_cli",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_angular_compiler_cli"
     },
     {
       "relation": "contains",
@@ -3272,9 +3612,9 @@
       "source_file": "package.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_angular_devkit_build_angular",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_angular_devkit_build_angular"
     },
     {
       "relation": "contains",
@@ -3282,9 +3622,9 @@
       "source_file": "package.json",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_concurrently",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_concurrently"
     },
     {
       "relation": "contains",
@@ -3292,9 +3632,9 @@
       "source_file": "package.json",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_jasmine_core",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_jasmine_core"
     },
     {
       "relation": "contains",
@@ -3302,9 +3642,9 @@
       "source_file": "package.json",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_karma",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_karma"
     },
     {
       "relation": "contains",
@@ -3312,9 +3652,9 @@
       "source_file": "package.json",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_karma_chrome_launcher",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_karma_chrome_launcher"
     },
     {
       "relation": "contains",
@@ -3322,9 +3662,9 @@
       "source_file": "package.json",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_karma_coverage",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_karma_coverage"
     },
     {
       "relation": "contains",
@@ -3332,9 +3672,9 @@
       "source_file": "package.json",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_karma_jasmine",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_karma_jasmine"
     },
     {
       "relation": "contains",
@@ -3342,9 +3682,9 @@
       "source_file": "package.json",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_karma_jasmine_html_reporter",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_karma_jasmine_html_reporter"
     },
     {
       "relation": "contains",
@@ -3352,9 +3692,9 @@
       "source_file": "package.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_jasmine",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_jasmine"
     },
     {
       "relation": "contains",
@@ -3362,9 +3702,9 @@
       "source_file": "package.json",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_typescript",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_typescript"
     },
     {
       "relation": "imports_from",
@@ -3471,6 +3811,28 @@
       "confidence_score": 1.0,
       "source": "app_app_config",
       "target": "app_app_routes_routes"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_app_config",
+      "target": "interceptors_auth_v2_interceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_app_config",
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3764,6 +4126,28 @@
       "source_file": "src/app/app.routes.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "sign_in_v2_sign_in_v2_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L9",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_app_routes",
       "target": "sign_up_sign_up_component"
@@ -3800,6 +4184,855 @@
       "confidence_score": 1.0,
       "source": "app_app_routes",
       "target": "src_app_domains_entrepreneur_pages_home_home_component_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_auth_v2_guard_spec",
+      "target": "auth_auth_v2_guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_auth_v2_guard_spec",
+      "target": "auth_auth_v2_guard_authv2guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auth_auth_v2_guard_spec",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auth_auth_v2_guard_spec",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.guard.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auth_auth_v2_guard",
+      "target": "auth_auth_v2_guard_authv2guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.guard.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_auth_v2_guard",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.guard.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_auth_v2_guard",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_auth_v2_models",
+      "target": "auth_auth_v2_models_businessprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "auth_auth_v2_models",
+      "target": "auth_auth_v2_models_canonicalrole",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "auth_auth_v2_models",
+      "target": "auth_auth_v2_models_loginprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "auth_auth_v2_models",
+      "target": "auth_auth_v2_models_loginresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.models.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "auth_auth_v2_models",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "auth_auth_v2_models",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "auth_auth_v2_models",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "auth_auth_v2_models",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "auth_auth_v2_models_canonicalrole",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_hasrole",
+      "target": "auth_auth_v2_models_canonicalrole",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_getprofile",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_loadprofile",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_persistprofile",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "auth_auth_v2_models_sessionprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "auth_auth_v2_models_loginprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin",
+      "target": "auth_auth_v2_models_loginprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "auth_auth_v2_models_loginresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_login",
+      "target": "auth_auth_v2_models_loginresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "auth_auth_v2_models_loginresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "auth_auth_v2_models_loginresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "interceptors_auth_v2_interceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_spec",
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/carrier-role.guard.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_carrier_role_guard",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auth_carrier_role_guard_spec",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor_spec",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_getaccesstoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_getprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_hasrole",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_loadprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_logoutv2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_persistprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_persisttoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service",
+      "target": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/carrier-role.guard.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_carrier_role_guard",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auth_carrier_role_guard_spec",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor_spec",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_signinv2component_constructor",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_getprofile",
+      "target": "auth_auth_v2_service_authv2service_logoutv2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_isauthenticated",
+      "target": "auth_auth_v2_service_authv2service_getaccesstoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/auth-v2.service.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "auth_auth_v2_service_authv2service_hasrole",
+      "target": "auth_auth_v2_service_authv2service_getprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_carrier_role_guard_spec",
+      "target": "auth_carrier_role_guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "auth_carrier_role_guard_spec",
+      "target": "auth_carrier_role_guard_carrierroleguard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/auth/carrier-role.guard.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auth_carrier_role_guard",
+      "target": "auth_carrier_role_guard_carrierroleguard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor_spec",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor_spec",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor_spec",
+      "target": "interceptors_auth_v2_interceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor_spec",
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "interceptors_auth_v2_interceptor",
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4016,9 +5249,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
-      "target": "services_api_service",
-      "confidence_score": 1.0
+      "target": "services_api_service"
     },
     {
       "relation": "imports_from",
@@ -4038,9 +5271,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/home/home.component.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component",
-      "target": "services_api_service",
-      "confidence_score": 1.0
+      "target": "services_api_service"
     },
     {
       "relation": "imports",
@@ -4060,9 +5293,9 @@
       "source_file": "src/app/domains/carrier/pages/confirmed-services/confirmed-services.component.ts",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "confirmed_services_confirmed_services_component_confirmedservicescomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4082,9 +5315,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/create-request/create-request.component.ts",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "create_request_create_request_component_createrequestcomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4104,9 +5337,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/hired-services/hired-services.component.ts",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hired_services_hired_services_component_hiredservicescomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4126,9 +5359,9 @@
       "source_file": "src/app/domains/carrier/components/offered-price/offered-price.component.ts",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "offered_price_offered_price_component_offeredpricecomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4148,9 +5381,9 @@
       "source_file": "src/app/domains/entrepreneur/components/payment-form/payment-form.component.ts",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "payment_form_payment_form_component_paymentformcomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4170,9 +5403,9 @@
       "source_file": "src/app/domains/iam/pages/register-carrier/register-carrier.component.ts",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "register_carrier_register_carrier_component_registercarriercomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4192,9 +5425,9 @@
       "source_file": "src/app/domains/iam/pages/register-entreprenuer/register-entreprenuer.component.ts",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "register_entreprenuer_register_entreprenuer_component_registerentreprenuercomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4214,9 +5447,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/request-status/request-status.component.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_status_request_status_component_requeststatuscomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4236,9 +5469,9 @@
       "source_file": "src/app/domains/carrier/pages/requests/requests.component.ts",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requests_requests_component_requestscomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4258,9 +5491,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/search-carriers/search-carriers.component.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "search_carriers_search_carriers_component_searchcarrierscomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "method",
@@ -4450,9 +5683,9 @@
       "source_file": "src/app/domains/carrier/components/shipping-info/shipping-info.component.ts",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shipping_info_shipping_info_component_shippinginfocomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4472,9 +5705,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in/sign-in.component.ts",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_sign_in_component_signincomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4494,9 +5727,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "references",
@@ -4505,9 +5738,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "imports",
@@ -4527,9 +5760,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/home/home.component.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component",
-      "target": "services_api_service_apiservice",
-      "confidence_score": 1.0
+      "target": "services_api_service_apiservice"
     },
     {
       "relation": "references",
@@ -4538,9 +5771,9 @@
       "source_file": "src/app/core/services/api.service.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_api_service_apiservice_authenticateuser",
-      "target": "models_user_model_user",
-      "confidence_score": 1.0
+      "target": "models_user_model_user"
     },
     {
       "relation": "references",
@@ -4549,9 +5782,9 @@
       "source_file": "src/app/core/services/api.service.ts",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_api_service_apiservice_registercarrier",
-      "target": "models_user_model_usercreate",
-      "confidence_score": 1.0
+      "target": "models_user_model_usercreate"
     },
     {
       "relation": "references",
@@ -4560,9 +5793,9 @@
       "source_file": "src/app/core/services/api.service.ts",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_api_service_apiservice_registerentrepreneur",
-      "target": "models_user_model_usercreate",
-      "confidence_score": 1.0
+      "target": "models_user_model_usercreate"
     },
     {
       "relation": "imports_from",
@@ -4967,9 +6200,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_spec_ts_home_home_component_spec",
-      "target": "home_home_component_homecomponent",
-      "confidence_score": 1.0
+      "target": "home_home_component_homecomponent"
     },
     {
       "relation": "contains",
@@ -4977,9 +6210,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
-      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent",
-      "confidence_score": 1.0
+      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent"
     },
     {
       "relation": "method",
@@ -4987,9 +6220,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent",
-      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
-      "confidence_score": 1.0
+      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_constructor"
     },
     {
       "relation": "method",
@@ -4997,9 +6230,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent",
-      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_logout",
-      "confidence_score": 1.0
+      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_logout"
     },
     {
       "relation": "method",
@@ -5007,9 +6240,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent",
-      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_ngoninit",
-      "confidence_score": 1.0
+      "target": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_ngoninit"
     },
     {
       "relation": "imports_from",
@@ -5288,9 +6521,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/home/home.component.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_entrepreneur_pages_home_home_component_spec_ts_home_home_component_spec",
-      "target": "home_home_component_homecomponent",
-      "confidence_score": 1.0
+      "target": "home_home_component_homecomponent"
     },
     {
       "relation": "contains",
@@ -5298,9 +6531,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/home/home.component.ts",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component",
-      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent",
-      "confidence_score": 1.0
+      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent"
     },
     {
       "relation": "method",
@@ -5308,9 +6541,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/home/home.component.ts",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent",
-      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
-      "confidence_score": 1.0
+      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_constructor"
     },
     {
       "relation": "method",
@@ -5318,9 +6551,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/home/home.component.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent",
-      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_logout",
-      "confidence_score": 1.0
+      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_logout"
     },
     {
       "relation": "method",
@@ -5328,9 +6561,9 @@
       "source_file": "src/app/domains/entrepreneur/pages/home/home.component.ts",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent",
-      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_ngoninit",
-      "confidence_score": 1.0
+      "target": "src_app_domains_entrepreneur_pages_home_home_component_ts_home_home_component_homecomponent_ngoninit"
     },
     {
       "relation": "imports_from",
@@ -5708,6 +6941,80 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "sign_in_v2_sign_in_v2_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_spec",
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component",
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_signinv2component",
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "sign_in_v2_sign_in_v2_component_signinv2component",
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component_onsubmit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/app/domains/iam/pages/sign-in/sign-in.component.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
@@ -6024,5 +7331,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9622921a2065b8aecd9794fa08faef4c7f3749fe"
+  "built_at_commit": "c7edb5598dc82e91ceace282eae36550f1dd28a4"
 }

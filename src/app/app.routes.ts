@@ -6,6 +6,7 @@ import { RequestStatusComponent } from "./domains/entrepreneur/pages/request-sta
 import { HiredServicesComponent } from "./domains/entrepreneur/pages/hired-services/hired-services.component";
 import { CreateRequestComponent } from "./domains/entrepreneur/pages/create-request/create-request.component";
 import { SignInComponent } from "./domains/iam/pages/sign-in/sign-in.component";
+import { SignInV2Component } from "./domains/iam/pages/sign-in-v2/sign-in-v2.component";
 import { SignUpComponent } from "./domains/iam/pages/sign-up/sign-up.component";
 import { PaymentGatewayComponent } from "./domains/entrepreneur/pages/payment-gateway/payment-gateway.component";
 import {RegisterCarrierComponent} from "./domains/iam/pages/register-carrier/register-carrier.component";
@@ -18,6 +19,7 @@ export const routes: Routes = [
   { path: "", redirectTo: "sign-in", pathMatch: "full" }, // Redirige a Home por defecto
 
   { path: "sign-in", component: SignInComponent },
+  { path: "sign-in-v2", component: SignInV2Component },
   { path: "sign-up", component: SignUpComponent },
   { path: "register-carrier", component:RegisterCarrierComponent },
   { path: "register-entrepreneur", component: RegisterEntreprenuerComponent },

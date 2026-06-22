@@ -1,0 +1,55 @@
+<div class="login-container">
+  <div class="image-section">
+    <img
+      ngSrc="/assets/image34.png"
+      alt="Fishing Boat"
+      class="image-cover"
+      height="1117"
+      width="732"
+      priority
+    />
+  </div>
+
+  <div class="form-section">
+    <div class="text-center mb-6">
+      <img
+        ngSrc="/assets/image32.png"
+        alt="PescaGo Logo"
+        height="201"
+        width="201"
+      />
+      <h1 class="title">PescaGo v2</h1>
+      <p class="subtitle">Inicio de sesión con JWT para Fleet</p>
+
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="outline">
+          <mat-label>Correo electrónico</mat-label>
+          <input matInput type="email" formControlName="email" placeholder="Correo electrónico" />
+          <mat-icon matIconSuffix>person</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Contraseña</mat-label>
+          <input matInput type="password" formControlName="password" placeholder="Contraseña" />
+          <mat-icon matIconSuffix>lock</mat-icon>
+        </mat-form-field>
+
+        <p class="success-message" *ngIf="successMessage">{{ successMessage }}</p>
+        <p class="error-message" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+        <div class="text-center link-section">
+          <a routerLink="/sign-in" class="register-link">Usar inicio de sesión legacy</a>
+        </div>
+
+        <button
+          mat-raised-button
+          color="primary"
+          class="login-button"
+          [disabled]="loginForm.invalid || isSubmitting"
+        >
+          Iniciar Sesión v2
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
