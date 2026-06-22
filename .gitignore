@@ -54,3 +54,7 @@ month.txt
 # Ignore AIO files, useful when changing branches
 aio/node_modules
 aio/out-tsc
+
+# Graphify local artifacts
+graphify-out/cache/
+graphify-out/cost.json

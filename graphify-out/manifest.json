@@ -1,0 +1,492 @@
+{
+  "src/main.ts": {
+    "mtime": 1781331726.3607557,
+    "ast_hash": "9f7d9a8410d38485c689e676eae14e24",
+    "semantic_hash": ""
+  },
+  "src/app/app.component.spec.ts": {
+    "mtime": 1781331726.3013842,
+    "ast_hash": "849c61fb3f4baff7c9c414bff89f358c",
+    "semantic_hash": ""
+  },
+  "src/app/app.component.ts": {
+    "mtime": 1781331726.3029006,
+    "ast_hash": "2b06089e9b2e8257d2822d9a4f7faf7c",
+    "semantic_hash": ""
+  },
+  "src/app/app.config.ts": {
+    "mtime": 1781331726.3033483,
+    "ast_hash": "fa6e07ed30da64984467a87cc60b4c3b",
+    "semantic_hash": ""
+  },
+  "src/app/app.routes.ts": {
+    "mtime": 1781331726.303798,
+    "ast_hash": "a638ac39ba9462c3005a81eceaa783ff",
+    "semantic_hash": ""
+  },
+  "src/app/core/services/api.service.ts": {
+    "mtime": 1781331726.303798,
+    "ast_hash": "0b5a6d7c201fc75619e0c3f4ffb4e39e",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/offered-price/offered-price.component.spec.ts": {
+    "mtime": 1781331726.3062477,
+    "ast_hash": "c10911539381de15e206cf3cef02661c",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/offered-price/offered-price.component.ts": {
+    "mtime": 1781331726.3076465,
+    "ast_hash": "76a43eae157998a8c6941454953d4646",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/packet-details/packet-details.component.spec.ts": {
+    "mtime": 1781331726.3086784,
+    "ast_hash": "b0a60e0fd15beb2bd7f19296434d05e2",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/packet-details/packet-details.component.ts": {
+    "mtime": 1781331726.3102012,
+    "ast_hash": "fab8e31c52ddea78f4ac1bdeaec5b2e7",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/shipping-info/shipping-info.component.spec.ts": {
+    "mtime": 1781331726.3119936,
+    "ast_hash": "69af00e030b1e1be59ee8df1c83d64ba",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/shipping-info/shipping-info.component.ts": {
+    "mtime": 1781331726.3124852,
+    "ast_hash": "54dd4b0cf5f2a6cce3e0ddf233058588",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/confirmed-services/confirmed-services.component.spec.ts": {
+    "mtime": 1781331726.3139796,
+    "ast_hash": "337f6beb34f0e76c46ddf49bca676969",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/confirmed-services/confirmed-services.component.ts": {
+    "mtime": 1781331726.3139796,
+    "ast_hash": "10de37a75326bd6278a27eab892dd808",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/home/home.component.spec.ts": {
+    "mtime": 1781331726.316745,
+    "ast_hash": "3c3be944dc544e39451b668744504a7d",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/home/home.component.ts": {
+    "mtime": 1781331726.3174503,
+    "ast_hash": "02ce21f54ff9bce4e9899503fe41adef",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/requests/requests.component.spec.ts": {
+    "mtime": 1781331726.318089,
+    "ast_hash": "f37e5475a409de396896a0053c6fba7e",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/requests/requests.component.ts": {
+    "mtime": 1781331726.318089,
+    "ast_hash": "43a9f40c3d2c7b143e9c9ed21ddb08c3",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/components/payment-form/payment-form.component.spec.ts": {
+    "mtime": 1781331726.3211927,
+    "ast_hash": "d37e87d28e8914b954ea0dae1dfd5115",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/components/payment-form/payment-form.component.ts": {
+    "mtime": 1781331726.3211927,
+    "ast_hash": "0f71ec85e4e010532d6f6d11f00aeaca",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/create-request/create-request.component.spec.ts": {
+    "mtime": 1781331726.3237078,
+    "ast_hash": "454d723559b53dccf28e27024bef39cf",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/create-request/create-request.component.ts": {
+    "mtime": 1781331726.3237078,
+    "ast_hash": "dd5ba0d16fbcbef23409478972107f27",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/hired-services/hired-services.component.spec.ts": {
+    "mtime": 1781331726.326221,
+    "ast_hash": "ea980f79f53a4781980f1bdf30490e79",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/hired-services/hired-services.component.ts": {
+    "mtime": 1781331726.326221,
+    "ast_hash": "49d4d2dc1f3960453574558301bea684",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/home/home.component.spec.ts": {
+    "mtime": 1781331726.327439,
+    "ast_hash": "3c3be944dc544e39451b668744504a7d",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/home/home.component.ts": {
+    "mtime": 1781331726.3284373,
+    "ast_hash": "e7dc0863e8c936a8407c80717a474e22",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/payment-gateway/payment-gateway.component.spec.ts": {
+    "mtime": 1781331726.330691,
+    "ast_hash": "f25c6ad1ca8227c61a4a47e777753cc3",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/payment-gateway/payment-gateway.component.ts": {
+    "mtime": 1781331726.330691,
+    "ast_hash": "64ac0255f85db31a2a0fcc0b61f11cb4",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/request-status/request-status.component.spec.ts": {
+    "mtime": 1781331726.332312,
+    "ast_hash": "c308e3361a8a5b0c9078f23134b0fd3d",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/request-status/request-status.component.ts": {
+    "mtime": 1781331726.33332,
+    "ast_hash": "1ef6939aae8f73587d1b36ef06a741be",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/search-carriers/search-carriers.component.spec.ts": {
+    "mtime": 1781331726.3343267,
+    "ast_hash": "45a3ee8341a823f99d6f3d428a9f871c",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/search-carriers/search-carriers.component.ts": {
+    "mtime": 1781331726.3353822,
+    "ast_hash": "1f059cf35540e1ccd10b17fd1accdd53",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/register-carrier/register-carrier.component.spec.ts": {
+    "mtime": 1781331726.3375156,
+    "ast_hash": "9ea418c17973cd3c92737bf014b22207",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/register-carrier/register-carrier.component.ts": {
+    "mtime": 1781331726.3375156,
+    "ast_hash": "28f29e7ac3a74cb6e41f9866519bf5ce",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/register-entreprenuer/register-entreprenuer.component.spec.ts": {
+    "mtime": 1781331726.3399577,
+    "ast_hash": "29de60cf7efd7db3fea57defc0c52b49",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/register-entreprenuer/register-entreprenuer.component.ts": {
+    "mtime": 1781331726.3399577,
+    "ast_hash": "8856522e07e4aa8aa7328d6bc36d828c",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/sign-in/sign-in.component.spec.ts": {
+    "mtime": 1781331726.340987,
+    "ast_hash": "97b3080ec36994dbd9766828f2b0cbf9",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/sign-in/sign-in.component.ts": {
+    "mtime": 1781331726.3424923,
+    "ast_hash": "0705960e94077b9beeeff8bbe8583289",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/sign-up/sign-up.component.spec.ts": {
+    "mtime": 1781331726.3437977,
+    "ast_hash": "244529f02e8d3d38b61eb6108c51f201",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/sign-up/sign-up.component.ts": {
+    "mtime": 1781331726.3448563,
+    "ast_hash": "adea9afc3c43c5ce5f0b6622620e6395",
+    "semantic_hash": ""
+  },
+  "src/app/shared/models/carrier.model.ts": {
+    "mtime": 1781331726.3459094,
+    "ast_hash": "4262b59dc0eb6b01bcd7a91bf7ac9ba6",
+    "semantic_hash": ""
+  },
+  "src/app/shared/models/entreprenuer.model.ts": {
+    "mtime": 1781331726.3459094,
+    "ast_hash": "6296ded52c3de99c7856d9daabafc9d0",
+    "semantic_hash": ""
+  },
+  "src/app/shared/models/user.model.ts": {
+    "mtime": 1781331726.3471308,
+    "ast_hash": "0f30698777cc7fdf4c0f3a3f53870612",
+    "semantic_hash": ""
+  },
+  "src/enviroments/enviroment.prod.ts": {
+    "mtime": 1781331726.359704,
+    "ast_hash": "bfa9d437fab46bdb0b4f7344c5933c5a",
+    "semantic_hash": ""
+  },
+  "src/enviroments/enviroment.ts": {
+    "mtime": 1781333597.9430683,
+    "ast_hash": "4055d148abebd9bc956368dd0b760bf6",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1781341988.6366973,
+    "ast_hash": "eac3b0ffba295ad14654a025ca93a379",
+    "semantic_hash": ""
+  },
+  "json-server/user_guide.txt": {
+    "mtime": 1781331726.287104,
+    "ast_hash": "4cbc3021bad1551f17bd80b1d4cba3fc",
+    "semantic_hash": ""
+  },
+  "src/index.html": {
+    "mtime": 1781331726.3607557,
+    "ast_hash": "679abbdf4cada8f4e7b2df5c9b6d91c2",
+    "semantic_hash": ""
+  },
+  "src/app/app.component.html": {
+    "mtime": 1781331726.3013842,
+    "ast_hash": "8e034683fba8a54368d780143b033499",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/offered-price/offered-price.component.html": {
+    "mtime": 1781331726.3062477,
+    "ast_hash": "ef7a38a92663da91abe62eb4f42840ee",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/packet-details/packet-details.component.html": {
+    "mtime": 1781331726.3086784,
+    "ast_hash": "7c188471d0c78df27ab0b78fb00e15ff",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/components/shipping-info/shipping-info.component.html": {
+    "mtime": 1781331726.31148,
+    "ast_hash": "685b2b2365e7c6dc754974e5575704f3",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/confirmed-services/confirmed-services.component.html": {
+    "mtime": 1781331726.3139796,
+    "ast_hash": "651b09e18cdd6698b0f7e9612052e5c5",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/home/home.component.html": {
+    "mtime": 1781331726.3156977,
+    "ast_hash": "4faead20da9b8d0dc992b2a959cbeeb2",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/requests/requests.component.html": {
+    "mtime": 1781331726.318089,
+    "ast_hash": "45726ca36cd2bdcd8f9f653336bdad72",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/components/payment-form/payment-form.component.html": {
+    "mtime": 1781331726.3211927,
+    "ast_hash": "c8ddaee5522dc51af127cfb0052c5945",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/create-request/create-request.component.html": {
+    "mtime": 1781331726.3226993,
+    "ast_hash": "447f7d670232d71b91ef46175ec14722",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/hired-services/hired-services.component.html": {
+    "mtime": 1781331726.325603,
+    "ast_hash": "c13f6499cea45918a2ac14642fd5f825",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/home/home.component.html": {
+    "mtime": 1781331726.327439,
+    "ast_hash": "13d593b0b4e64fc812dcd1f09eda0fb8",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/payment-gateway/payment-gateway.component.html": {
+    "mtime": 1781331726.3296342,
+    "ast_hash": "070971b1483065b031b1e821ad0bdbe1",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/request-status/request-status.component.html": {
+    "mtime": 1781331726.332312,
+    "ast_hash": "6e2a33b4d1e0096c4d5b693c09650895",
+    "semantic_hash": ""
+  },
+  "src/app/domains/entrepreneur/pages/search-carriers/search-carriers.component.html": {
+    "mtime": 1781331726.3343267,
+    "ast_hash": "32f685d74c59e27f79585af5529554d1",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/register-carrier/register-carrier.component.html": {
+    "mtime": 1781331726.3364122,
+    "ast_hash": "c7d31fa5f23c582a4be7c3ea64a60f50",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/register-entreprenuer/register-entreprenuer.component.html": {
+    "mtime": 1781331726.3387785,
+    "ast_hash": "74fc0c9df9670a573d85942e262053ea",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/sign-in/sign-in.component.html": {
+    "mtime": 1781331726.340987,
+    "ast_hash": "3b94e6c939c527b7e83d743e866c1898",
+    "semantic_hash": ""
+  },
+  "src/app/domains/iam/pages/sign-up/sign-up.component.html": {
+    "mtime": 1781331726.3437977,
+    "ast_hash": "2b9dc889b84c407af2c0dce5ac87f6d9",
+    "semantic_hash": ""
+  },
+  "public/assets/empresas_boton.png": {
+    "mtime": 1781331726.2925136,
+    "ast_hash": "0b6b9f753e3606906a96b4ec50e54306",
+    "semantic_hash": ""
+  },
+  "public/assets/image19.png": {
+    "mtime": 1781331726.2930167,
+    "ast_hash": "c589d1c01688de409b24299ea8201403",
+    "semantic_hash": ""
+  },
+  "public/assets/image32.png": {
+    "mtime": 1781331726.2930167,
+    "ast_hash": "681fe65f5124be9428bfba9339c3636e",
+    "semantic_hash": ""
+  },
+  "public/assets/image34.png": {
+    "mtime": 1781331726.2974622,
+    "ast_hash": "bf101af13e623fc3cd946b934fa8738e",
+    "semantic_hash": ""
+  },
+  "public/assets/image35.png": {
+    "mtime": 1781331726.2984793,
+    "ast_hash": "99e162e527cd4642e6effc783040f43a",
+    "semantic_hash": ""
+  },
+  "public/assets/image37.png": {
+    "mtime": 1781331726.2995532,
+    "ast_hash": "e0084656bd1ab901bd51305c803caf6b",
+    "semantic_hash": ""
+  },
+  "src/assets/images/boxes.png": {
+    "mtime": 1781331726.3491518,
+    "ast_hash": "730eae90b4764e20e8ec54a0af2e04b6",
+    "semantic_hash": ""
+  },
+  "src/assets/images/empresas_boton.png": {
+    "mtime": 1781331726.3503141,
+    "ast_hash": "0b6b9f753e3606906a96b4ec50e54306",
+    "semantic_hash": ""
+  },
+  "src/assets/images/globe.png": {
+    "mtime": 1781331726.3503141,
+    "ast_hash": "5c089a9ab4718791885611856ac58876",
+    "semantic_hash": ""
+  },
+  "src/assets/images/home-icon.png": {
+    "mtime": 1781331726.3513505,
+    "ast_hash": "d57ce14f54d366dca31fead9edbcc61b",
+    "semantic_hash": ""
+  },
+  "src/assets/images/image22.png": {
+    "mtime": 1781331726.3513505,
+    "ast_hash": "93cf8b84f31bcdedc5522c8b531ad36b",
+    "semantic_hash": ""
+  },
+  "src/assets/images/image25.png": {
+    "mtime": 1781331726.352348,
+    "ast_hash": "f7490ab27b0ae094762205d57fd94bde",
+    "semantic_hash": ""
+  },
+  "src/assets/images/image31.png": {
+    "mtime": 1781331726.352348,
+    "ast_hash": "81365e375e719079374c949cb4b90761",
+    "semantic_hash": ""
+  },
+  "src/assets/images/image5.png": {
+    "mtime": 1781331726.3535964,
+    "ast_hash": "c43e544608fb04d3e1a5ae1052825528",
+    "semantic_hash": ""
+  },
+  "src/assets/images/image6.png": {
+    "mtime": 1781331726.3535964,
+    "ast_hash": "26d5fa03463c95a3c08c9f0dd31994e7",
+    "semantic_hash": ""
+  },
+  "src/assets/images/Imagen_Perfil.png": {
+    "mtime": 1781331726.3481326,
+    "ast_hash": "c94875d96d95a81af0e10e1991176478",
+    "semantic_hash": ""
+  },
+  "src/assets/images/Logo.png": {
+    "mtime": 1781331726.3491518,
+    "ast_hash": "681fe65f5124be9428bfba9339c3636e",
+    "semantic_hash": ""
+  },
+  "src/assets/images/logout.png": {
+    "mtime": 1781331726.3535964,
+    "ast_hash": "c748070904907bb7af29377d2cc0e181",
+    "semantic_hash": ""
+  },
+  "src/assets/images/mastercard.png": {
+    "mtime": 1781331726.3535964,
+    "ast_hash": "31a127341196b2bd641f50c7f2a6bcc9",
+    "semantic_hash": ""
+  },
+  "src/assets/images/plin.png": {
+    "mtime": 1781331726.3535964,
+    "ast_hash": "7bbc66d48673fcbfa6406d7655be2f0d",
+    "semantic_hash": ""
+  },
+  "src/assets/images/servicios_boton.png": {
+    "mtime": 1781331726.3558211,
+    "ast_hash": "427c6f6a84bd0f3d9e0a18e4d691bc99",
+    "semantic_hash": ""
+  },
+  "src/assets/images/solicitudes_boton.png": {
+    "mtime": 1781331726.3558211,
+    "ast_hash": "942bc390cd03ab2c2ca68276ac9a6940",
+    "semantic_hash": ""
+  },
+  "src/assets/images/truck-1.png": {
+    "mtime": 1781331726.3571043,
+    "ast_hash": "8f2cff60c884ece82bb519fcdce60222",
+    "semantic_hash": ""
+  },
+  "src/assets/images/truck-2.png": {
+    "mtime": 1781331726.3571043,
+    "ast_hash": "0510aaa0c54e6d850267d1ed3da83569",
+    "semantic_hash": ""
+  },
+  "src/assets/images/visa.png": {
+    "mtime": 1781331726.3583305,
+    "ast_hash": "59af6a7e47b1daa25aef84f065ad9796",
+    "semantic_hash": ""
+  },
+  "src/assets/images/yape.png": {
+    "mtime": 1781331726.3583305,
+    "ast_hash": "e35e577dc815df436f467205a34ce016",
+    "semantic_hash": ""
+  },
+  "angular.json": {
+    "mtime": 1781331726.2860978,
+    "ast_hash": "631e119763d1d56866427a2b44f32def",
+    "semantic_hash": ""
+  },
+  "json-server/db.json": {
+    "mtime": 1781331726.287104,
+    "ast_hash": "de6d0ee4df8304efb033333fb1e098aa",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1781331726.291516,
+    "ast_hash": "b92a1d4a13ae58eefb72cdb7231f07a8",
+    "semantic_hash": ""
+  },
+  "tsconfig.app.json": {
+    "mtime": 1781331726.3622615,
+    "ast_hash": "8d99fdcdf658986569ea23b33df685a6",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1781331726.3632684,
+    "ast_hash": "dd3c8905847764e8a227c8bbb23ffab6",
+    "semantic_hash": ""
+  },
+  "tsconfig.spec.json": {
+    "mtime": 1781331726.3632684,
+    "ast_hash": "fde196cef563197a78958ceaea284638",
+    "semantic_hash": ""
+  }
+}
