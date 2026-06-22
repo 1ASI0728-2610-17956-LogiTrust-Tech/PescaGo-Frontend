@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Router, RouterLink} from "@angular/router";
 import {ApiService} from "../../../../core/services/api.service";
+import {AuthV2Service} from "../../../../core/auth/auth-v2.service";
 
 @Component({
   selector: 'app-home',
@@ -18,7 +19,8 @@ export class HomeComponent implements OnInit {
 
   constructor(
       private route:Router,
-      private apiService: ApiService) {}
+      private apiService: ApiService,
+      private authV2Service: AuthV2Service) {}
 
   ngOnInit(): void {
     this.userId = parseInt(localStorage.getItem('userId') || '0', 10); // Recuperar el id
@@ -30,6 +32,7 @@ export class HomeComponent implements OnInit {
   }
 
   logout(){
+    this.authV2Service.logoutV2();
     localStorage.clear();
     this.route.navigate(['/sign-in']);
   }
