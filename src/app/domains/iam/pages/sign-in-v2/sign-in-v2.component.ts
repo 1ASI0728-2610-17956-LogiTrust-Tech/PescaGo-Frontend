@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { MatButton } from '@angular/material/button';
 import { MatFormField, MatInput, MatLabel, MatSuffix } from '@angular/material/input';
 import { MatIcon } from '@angular/material/icon';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { HttpErrorResponse } from '@angular/common/http';
 import { AuthV2Service } from '../../../../core/auth/auth-v2.service';
 
@@ -34,7 +34,8 @@ export class SignInV2Component {
 
     constructor(
         private fb: FormBuilder,
-        private authV2Service: AuthV2Service
+        private authV2Service: AuthV2Service,
+        private router: Router
     ) {
         this.loginForm = this.fb.group({
             email: ['', [Validators.required, Validators.email]],
@@ -58,8 +59,7 @@ export class SignInV2Component {
                     next: (profile) => {
                         this.isSubmitting = false;
                         if (profile.role?.toUpperCase() === 'CARRIER') {
-                            this.successMessage =
-                                'Sesión v2 iniciada correctamente. La gestión de flota estará disponible en la siguiente fase.';
+                            void this.router.navigate(['/carrier/fleet']);
                             return;
                         }
 

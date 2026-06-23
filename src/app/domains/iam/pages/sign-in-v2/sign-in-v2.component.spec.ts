@@ -65,7 +65,7 @@ describe('SignInV2Component', () => {
         expect(component).toBeTruthy();
     });
 
-    it('should persist session and show success message on successful CARRIER login without navigating', () => {
+    it('should persist session and navigate to carrier fleet on successful CARRIER login', () => {
         const navigateSpy = spyOn(router, 'navigate').and.returnValue(Promise.resolve(true));
 
         component.loginForm.setValue({
@@ -84,10 +84,7 @@ describe('SignInV2Component', () => {
         expect(JSON.parse(localStorage.getItem('pescago.v2.profile')!)).toEqual(carrierProfile);
         expect(localStorage.getItem('carrierId')).toBeNull();
         expect(localStorage.getItem('userId')).toBeNull();
-        expect(component.successMessage).toBe(
-            'Sesión v2 iniciada correctamente. La gestión de flota estará disponible en la siguiente fase.'
-        );
-        expect(navigateSpy).not.toHaveBeenCalled();
+        expect(navigateSpy).toHaveBeenCalledWith(['/carrier/fleet']);
     });
 
     it('should show error message on 401 login response', () => {
@@ -145,7 +142,7 @@ describe('SignInV2Component', () => {
             profile: null
         });
 
-        expect(navigateSpy).not.toHaveBeenCalledWith(['/carrier/home']);
+        expect(navigateSpy).not.toHaveBeenCalledWith(['/carrier/fleet']);
         expect(component.errorMessage).toContain('Fleet v2 está disponible solo para usuarios Carrier');
         expect(localStorage.getItem('pescago.v2.accessToken')).toBeNull();
     });
