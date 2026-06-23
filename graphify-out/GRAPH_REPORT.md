@@ -1,16 +1,16 @@
 # Graph Report - PescaGo-Frontend  (2026-06-22)
 
 ## Corpus Check
-- 72 files · ~82,538 words
+- 72 files · ~82,547 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 322 nodes · 547 edges · 15 communities (10 shown, 5 thin omitted)
+- 323 nodes · 548 edges · 24 communities (9 shown, 15 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6ce496f1`
+- Built from commit: `a2b0a16d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,15 +21,24 @@
 - [[_COMMUNITY_Community 3|Community 3]]
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `ApiService` - 47 edges
@@ -58,11 +67,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (15 total, 5 thin omitted)
-
-### Community 0 - "Community 0"
-Cohesion: 0.05
-Nodes (9): CreateRequestComponent, HiredServicesComponent, User, UserCreate, RegisterCarrierComponent, RequestStatusComponent, ApiService, SignInComponent (+1 more)
+## Communities (24 total, 15 thin omitted)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.13
@@ -73,16 +78,16 @@ Cohesion: 0.15
 Nodes (3): OfferedPriceComponent, PacketDetailsComponent, RequestsComponent
 
 ### Community 4 - "Community 4"
-Cohesion: 0.11
-Nodes (13): RouterHostComponent, authV2Guard(), BusinessProfile, CanonicalRole, LoginProfile, LoginResponse, SessionProfile, AuthV2Service (+5 more)
+Cohesion: 0.16
+Nodes (9): BusinessProfile, CanonicalRole, LoginProfile, LoginResponse, SessionProfile, AuthV2Service, environment, authV2Interceptor() (+1 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.31
-Nodes (5): AppComponent, compiled, fixture, appConfig, routes
+Cohesion: 0.36
+Nodes (4): AppComponent, compiled, fixture, appConfig
 
 ### Community 8 - "Community 8"
-Cohesion: 0.09
-Nodes (4): HomeComponent, RegisterEntreprenuerComponent, SearchCarriersComponent, SignUpComponent
+Cohesion: 0.10
+Nodes (7): routes, RouterHostComponent, authV2Guard(), carrierRoleGuard(), HomeComponent, SearchCarriersComponent, SignUpComponent
 
 ### Community 12 - "Community 12"
 Cohesion: 0.08
@@ -93,32 +98,32 @@ Cohesion: 0.08
 Nodes (24): dependencies, @angular/animations, @angular/cdk, @angular/common, @angular/compiler, @angular/core, @angular/forms, @angular/material (+16 more)
 
 ### Community 17 - "Community 17"
-Cohesion: 0.08
-Nodes (32): build, extract-i18n, serve, test, builder, configurations, defaultConfiguration, options (+24 more)
+Cohesion: 0.07
+Nodes (33): build, extract-i18n, serve, test, builder, configurations, defaultConfiguration, options (+25 more)
 
 ### Community 19 - "Community 19"
 Cohesion: 0.40
 Nodes (4): 1. Instalación de dependencias, 2. Ejecución, 3. Solución de problemas comunes, PescaGo Frontend
 
 ## Knowledge Gaps
-- **70 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `schematics` (+65 more)
+- **71 isolated node(s):** `$schema`, `version`, `newProjectRoot`, `projectType`, `schematics` (+66 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ApiService` connect `Community 0` to `Community 2`, `Community 3`, `Community 4`, `Community 5`, `Community 8`?**
-  _High betweenness centrality (0.130) - this node is a cross-community bridge._
+- **Why does `ApiService` connect `Community 0` to `Community 2`, `Community 3`, `Community 5`, `Community 6`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 18`, `Community 20`, `Community 21`, `Community 22`, `Community 23`?**
+  _High betweenness centrality (0.129) - this node is a cross-community bridge._
 - **Why does `FleetComponent` connect `Community 1` to `Community 8`?**
   _High betweenness centrality (0.075) - this node is a cross-community bridge._
+- **Why does `AuthV2Service` connect `Community 4` to `Community 8`, `Community 22`?**
+  _High betweenness centrality (0.052) - this node is a cross-community bridge._
 - **What connects `$schema`, `version`, `newProjectRoot` to the rest of the system?**
-  _70 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _71 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.05185185185185185 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.13229018492176386 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.11074197120708748 - nodes in this community are weakly interconnected._
 - **Should `Community 5` be split into smaller, more focused modules?**
   _Cohesion score 0.11578947368421053 - nodes in this community are weakly interconnected._
