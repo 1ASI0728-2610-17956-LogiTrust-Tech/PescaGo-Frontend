@@ -20,7 +20,7 @@
     "semantic_hash": ""
   },
   "src/app/app.routes.ts": {
-    "mtime": 1782172249.1221635,
+    "mtime": 1782175588.2162788,
     "ast_hash": "5963110537ec9b9617eb213b527109d8",
     "semantic_hash": ""
   },
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "src/enviroments/enviroment.prod.ts": {
-    "mtime": 1782171518.5023715,
-    "ast_hash": "b17b32e36ba10daec4d33ff6d80ca55e",
+    "mtime": 1782178609.4417176,
+    "ast_hash": "6733be4e44b16f12ea995e538188a787",
     "semantic_hash": ""
   },
   "src/enviroments/enviroment.ts": {
@@ -460,8 +460,8 @@
     "semantic_hash": ""
   },
   "angular.json": {
-    "mtime": 1781331726.2860978,
-    "ast_hash": "631e119763d1d56866427a2b44f32def",
+    "mtime": 1782180582.5777924,
+    "ast_hash": "247ca4f44a424f3922266e9edce1d418",
     "semantic_hash": ""
   },
   "json-server/db.json": {
@@ -535,12 +535,12 @@
     "semantic_hash": ""
   },
   "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts": {
-    "mtime": 1782172274.4166286,
+    "mtime": 1782175588.2222798,
     "ast_hash": "23af4ebc1118e999722b6bb3fa13e22f",
     "semantic_hash": ""
   },
   "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts": {
-    "mtime": 1782172250.5067399,
+    "mtime": 1782175588.2232795,
     "ast_hash": "8d4fbc1d4eee34b39f5bb395adcd8e83",
     "semantic_hash": ""
   },
@@ -550,53 +550,53 @@
     "semantic_hash": ""
   },
   "src/app/app.routes.spec.ts": {
-    "mtime": 1782173033.4896414,
-    "ast_hash": "1c1166642e459e51b22ee2135e114d43",
+    "mtime": 1782175588.2152793,
+    "ast_hash": "e9062267970ca23010d56315017df1bd",
     "semantic_hash": ""
   },
   "src/app/core/services/fleet-v2.service.spec.ts": {
-    "mtime": 1782172200.8790488,
-    "ast_hash": "3ae00a91aa1dc9414527efd76357f2ed",
+    "mtime": 1782175588.217278,
+    "ast_hash": "959d6317462fc66d374e897cdb5e57ad",
     "semantic_hash": ""
   },
   "src/app/core/services/fleet-v2.service.ts": {
-    "mtime": 1782172198.419623,
-    "ast_hash": "db40fe4b64816f82ee69b59ea208c39a",
+    "mtime": 1782175588.2182775,
+    "ast_hash": "066edd0bbb8c46b7ab4926f6a92fb7b8",
     "semantic_hash": ""
   },
   "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts": {
-    "mtime": 1782172864.0519028,
-    "ast_hash": "db86f374c4c084db68894dc6aa71fc3a",
+    "mtime": 1782175588.220279,
+    "ast_hash": "9b1ae092888d8adcbb404b9b27b70b3f",
     "semantic_hash": ""
   },
   "src/app/domains/carrier/pages/fleet/fleet.component.ts": {
-    "mtime": 1782172843.2306747,
-    "ast_hash": "10506fb357726978e6da60bde395bf51",
+    "mtime": 1782175588.2212796,
+    "ast_hash": "9e4578b9f9cdd25a26db83d80ab69cc7",
     "semantic_hash": ""
   },
   "src/app/shared/models/fleet/vehicle-availability-status.enum.ts": {
-    "mtime": 1782172196.4165435,
-    "ast_hash": "2426ab0e6de9e598fc3663da9b72b576",
+    "mtime": 1782175588.22428,
+    "ast_hash": "5d4dd4f895af4a47fee55885cedf93c5",
     "semantic_hash": ""
   },
   "src/app/shared/models/fleet/vehicle-payload.model.ts": {
-    "mtime": 1782172197.2620971,
-    "ast_hash": "3b8bd43cf04fcff6ccac2e8305f65c75",
+    "mtime": 1782175588.2252786,
+    "ast_hash": "a09e4f8a43b12df4b435b220d2001ece",
     "semantic_hash": ""
   },
   "src/app/shared/models/fleet/vehicle-resource.model.ts": {
-    "mtime": 1782172196.66866,
-    "ast_hash": "edf9ce40285cc3e481e2b716aad9b10e",
+    "mtime": 1782175588.2252786,
+    "ast_hash": "7d24a1f750fa13d75e98db5d9e250014",
     "semantic_hash": ""
   },
   "src/app/shared/models/fleet/vehicle-type.enum.ts": {
-    "mtime": 1782172196.4165435,
-    "ast_hash": "e40fd4591db9eeba1d20d1d668129611",
+    "mtime": 1782175588.2262785,
+    "ast_hash": "310107d0b905c4a376d4ac905b0ef00b",
     "semantic_hash": ""
   },
   "src/app/domains/carrier/pages/fleet/fleet.component.html": {
-    "mtime": 1782172845.3239486,
-    "ast_hash": "c69b9cf0b4fa4d93432f3744f067dcd3",
+    "mtime": 1782175588.219278,
+    "ast_hash": "3e4aa7b8262394509f4459bed8f3eba5",
     "semantic_hash": ""
   }
 }
