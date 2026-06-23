@@ -14,6 +14,9 @@ import {RegisterEntreprenuerComponent} from "./domains/iam/pages/register-entrep
 import {ConfirmedServicesComponent} from "./domains/carrier/pages/confirmed-services/confirmed-services.component";
 import {RequestsComponent} from "./domains/carrier/pages/requests/requests.component";
 import {PacketDetailsComponent} from "./domains/carrier/components/packet-details/packet-details.component";
+import {FleetComponent} from "./domains/carrier/pages/fleet/fleet.component";
+import {authV2Guard} from "./core/auth/auth-v2.guard";
+import {carrierRoleGuard} from "./core/auth/carrier-role.guard";
 
 export const routes: Routes = [
   { path: "", redirectTo: "sign-in", pathMatch: "full" }, // Redirige a Home por defecto
@@ -32,6 +35,11 @@ export const routes: Routes = [
   { path: "entrepreneur/payment-gateway/:id", component: PaymentGatewayComponent },
 
   { path: "carrier/home", component: CarrierHomeComponent },
+  {
+    path: "carrier/fleet",
+    component: FleetComponent,
+    canActivate: [authV2Guard, carrierRoleGuard]
+  },
   { path: "carrier/confirmed-services", component: ConfirmedServicesComponent },
   { path: "carrier/requests", component: RequestsComponent },
   { path: "carrier/packet-details", component: PacketDetailsComponent },

@@ -884,20 +884,40 @@
       "norm_label": "appconfig"
     },
     {
+      "label": "app.routes.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_app_routes_spec",
+      "community": 4,
+      "norm_label": "app.routes.spec.ts"
+    },
+    {
+      "label": "RouterHostComponent",
+      "file_type": "code",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "app_app_routes_spec_routerhostcomponent",
+      "community": 4,
+      "norm_label": "routerhostcomponent"
+    },
+    {
       "label": "app.routes.ts",
       "file_type": "code",
       "source_file": "src/app/app.routes.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_app_routes",
-      "community": 3,
+      "community": 8,
       "norm_label": "app.routes.ts"
     },
     {
       "label": "routes",
       "file_type": "code",
       "source_file": "src/app/app.routes.ts",
-      "source_location": "L18",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "app_app_routes_routes",
       "community": 7,
@@ -1384,13 +1404,103 @@
       "norm_label": ".gethiredservicesbycarrierid()"
     },
     {
+      "label": "fleet-v2.service.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_spec",
+      "community": 1,
+      "norm_label": "fleet-v2.service.spec.ts"
+    },
+    {
+      "label": "fleet-v2.service.ts",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service",
+      "community": 1,
+      "norm_label": "fleet-v2.service.ts"
+    },
+    {
+      "label": "FleetV2Service",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_fleetv2service",
+      "community": 1,
+      "norm_label": "fleetv2service"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_fleetv2service_constructor",
+      "community": 1,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".listVehicles()",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_fleetv2service_listvehicles",
+      "community": 1,
+      "norm_label": ".listvehicles()"
+    },
+    {
+      "label": ".registerVehicle()",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_fleetv2service_registervehicle",
+      "community": 1,
+      "norm_label": ".registervehicle()"
+    },
+    {
+      "label": ".updateVehicle()",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_fleetv2service_updatevehicle",
+      "community": 1,
+      "norm_label": ".updatevehicle()"
+    },
+    {
+      "label": ".activateVehicle()",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_fleetv2service_activatevehicle",
+      "community": 1,
+      "norm_label": ".activatevehicle()"
+    },
+    {
+      "label": ".deactivateVehicle()",
+      "file_type": "code",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "services_fleet_v2_service_fleetv2service_deactivatevehicle",
+      "community": 1,
+      "norm_label": ".deactivatevehicle()"
+    },
+    {
       "label": "offered-price.component.spec.ts",
       "file_type": "code",
       "source_file": "src/app/domains/carrier/components/offered-price/offered-price.component.spec.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "offered_price_offered_price_component_spec",
-      "community": 6,
+      "community": 3,
       "norm_label": "offered-price.component.spec.ts"
     },
     {
@@ -1400,7 +1510,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "offered_price_offered_price_component",
-      "community": 6,
+      "community": 3,
       "norm_label": "offered-price.component.ts"
     },
     {
@@ -1410,7 +1520,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "offered_price_offered_price_component_offeredpricecomponent",
-      "community": 6,
+      "community": 3,
       "norm_label": "offeredpricecomponent"
     },
     {
@@ -1420,7 +1530,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "offered_price_offered_price_component_offeredpricecomponent_constructor",
-      "community": 6,
+      "community": 3,
       "norm_label": ".constructor()"
     },
     {
@@ -1430,7 +1540,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "offered_price_offered_price_component_offeredpricecomponent_closedialog",
-      "community": 6,
+      "community": 3,
       "norm_label": ".closedialog()"
     },
     {
@@ -1610,7 +1720,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component_spec",
-      "community": 3,
+      "community": 5,
       "norm_label": "confirmed-services.component.spec.ts"
     },
     {
@@ -1620,7 +1730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component",
-      "community": 3,
+      "community": 5,
       "norm_label": "confirmed-services.component.ts"
     },
     {
@@ -1630,7 +1740,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component_confirmedservicescomponent",
-      "community": 3,
+      "community": 5,
       "norm_label": "confirmedservicescomponent"
     },
     {
@@ -1640,7 +1750,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component_confirmedservicescomponent_constructor",
-      "community": 3,
+      "community": 5,
       "norm_label": ".constructor()"
     },
     {
@@ -1650,7 +1760,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component_confirmedservicescomponent_getrequestforhiredservice",
-      "community": 3,
+      "community": 5,
       "norm_label": ".getrequestforhiredservice()"
     },
     {
@@ -1660,7 +1770,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component_confirmedservicescomponent_ngoninit",
-      "community": 3,
+      "community": 5,
       "norm_label": ".ngoninit()"
     },
     {
@@ -1670,7 +1780,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component_confirmedservicescomponent_openpacketdetails",
-      "community": 3,
+      "community": 5,
       "norm_label": ".openpacketdetails()"
     },
     {
@@ -1680,8 +1790,218 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "confirmed_services_confirmed_services_component_confirmedservicescomponent_openshippinginfo",
-      "community": 3,
+      "community": 5,
       "norm_label": ".openshippinginfo()"
+    },
+    {
+      "label": "fleet.component.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_spec",
+      "community": 1,
+      "norm_label": "fleet.component.spec.ts"
+    },
+    {
+      "label": "flushInitialActiveList()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_spec_flushinitialactivelist",
+      "community": 1,
+      "norm_label": "flushinitialactivelist()"
+    },
+    {
+      "label": "fleet.component.ts",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_fleet_component",
+      "community": 1,
+      "norm_label": "fleet.component.ts"
+    },
+    {
+      "label": "FleetComponent",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent",
+      "community": 1,
+      "norm_label": "fleetcomponent"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_constructor",
+      "community": 1,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".ngOnInit()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_ngoninit",
+      "community": 1,
+      "norm_label": ".ngoninit()"
+    },
+    {
+      "label": ".loadVehicles()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_loadvehicles",
+      "community": 1,
+      "norm_label": ".loadvehicles()"
+    },
+    {
+      "label": ".onIncludeInactiveChange()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L114",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_onincludeinactivechange",
+      "community": 1,
+      "norm_label": ".onincludeinactivechange()"
+    },
+    {
+      "label": ".openCreateForm()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L119",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_opencreateform",
+      "community": 1,
+      "norm_label": ".opencreateform()"
+    },
+    {
+      "label": ".openEditForm()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_openeditform",
+      "community": 1,
+      "norm_label": ".openeditform()"
+    },
+    {
+      "label": ".cancelForm()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_cancelform",
+      "community": 1,
+      "norm_label": ".cancelform()"
+    },
+    {
+      "label": ".submitForm()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_submitform",
+      "community": 1,
+      "norm_label": ".submitform()"
+    },
+    {
+      "label": ".formatAvailability()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L180",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_formatavailability",
+      "community": 1,
+      "norm_label": ".formatavailability()"
+    },
+    {
+      "label": ".isPatchInProgress()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L184",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_ispatchinprogress",
+      "community": 1,
+      "norm_label": ".ispatchinprogress()"
+    },
+    {
+      "label": ".activateVehicle()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L188",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_activatevehicle",
+      "community": 1,
+      "norm_label": ".activatevehicle()"
+    },
+    {
+      "label": ".deactivateVehicle()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L207",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_deactivatevehicle",
+      "community": 1,
+      "norm_label": ".deactivatevehicle()"
+    },
+    {
+      "label": ".formatVehicleType()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L226",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_formatvehicletype",
+      "community": 1,
+      "norm_label": ".formatvehicletype()"
+    },
+    {
+      "label": ".createVehicleForm()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L236",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_createvehicleform",
+      "community": 1,
+      "norm_label": ".createvehicleform()"
+    },
+    {
+      "label": ".optionalPositiveVolumeValidator()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L247",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_optionalpositivevolumevalidator",
+      "community": 1,
+      "norm_label": ".optionalpositivevolumevalidator()"
+    },
+    {
+      "label": ".buildPayload()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L256",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_buildpayload",
+      "community": 1,
+      "norm_label": ".buildpayload()"
+    },
+    {
+      "label": ".mapFleetError()",
+      "file_type": "code",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L272",
+      "_origin": "ast",
+      "id": "fleet_fleet_component_fleetcomponent_mapfleeterror",
+      "community": 1,
+      "norm_label": ".mapfleeterror()"
     },
     {
       "label": "home.component.spec.ts",
@@ -1700,7 +2020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
-      "community": 0,
+      "community": 4,
       "norm_label": "home.component.ts"
     },
     {
@@ -1710,7 +2030,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent",
-      "community": 0,
+      "community": 4,
       "norm_label": "homecomponent"
     },
     {
@@ -1720,7 +2040,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
-      "community": 0,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -1730,7 +2050,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_ngoninit",
-      "community": 0,
+      "community": 4,
       "norm_label": ".ngoninit()"
     },
     {
@@ -1740,7 +2060,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_logout",
-      "community": 0,
+      "community": 4,
       "norm_label": ".logout()"
     },
     {
@@ -1880,7 +2200,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "create_request_create_request_component_spec",
-      "community": 11,
+      "community": 0,
       "norm_label": "create-request.component.spec.ts"
     },
     {
@@ -1890,7 +2210,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "create_request_create_request_component",
-      "community": 11,
+      "community": 0,
       "norm_label": "create-request.component.ts"
     },
     {
@@ -1900,7 +2220,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "create_request_create_request_component_createrequestcomponent",
-      "community": 11,
+      "community": 0,
       "norm_label": "createrequestcomponent"
     },
     {
@@ -1910,7 +2230,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "create_request_create_request_component_createrequestcomponent_constructor",
-      "community": 11,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -1920,7 +2240,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "create_request_create_request_component_createrequestcomponent_ngoninit",
-      "community": 11,
+      "community": 0,
       "norm_label": ".ngoninit()"
     },
     {
@@ -1930,7 +2250,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "create_request_create_request_component_createrequestcomponent_submitrequest",
-      "community": 11,
+      "community": 0,
       "norm_label": ".submitrequest()"
     },
     {
@@ -2130,7 +2450,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_status_request_status_component_spec",
-      "community": 3,
+      "community": 0,
       "norm_label": "request-status.component.spec.ts"
     },
     {
@@ -2140,7 +2460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_status_request_status_component",
-      "community": 3,
+      "community": 0,
       "norm_label": "request-status.component.ts"
     },
     {
@@ -2150,7 +2470,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "request_status_request_status_component_requeststatuscomponent",
-      "community": 3,
+      "community": 0,
       "norm_label": "requeststatuscomponent"
     },
     {
@@ -2160,7 +2480,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "request_status_request_status_component_requeststatuscomponent_constructor",
-      "community": 3,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -2170,7 +2490,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "request_status_request_status_component_requeststatuscomponent_ngoninit",
-      "community": 3,
+      "community": 0,
       "norm_label": ".ngoninit()"
     },
     {
@@ -2180,7 +2500,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "search_carriers_search_carriers_component_spec",
-      "community": 9,
+      "community": 8,
       "norm_label": "search-carriers.component.spec.ts"
     },
     {
@@ -2190,7 +2510,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "search_carriers_search_carriers_component",
-      "community": 9,
+      "community": 8,
       "norm_label": "search-carriers.component.ts"
     },
     {
@@ -2200,7 +2520,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "search_carriers_search_carriers_component_searchcarrierscomponent",
-      "community": 9,
+      "community": 8,
       "norm_label": "searchcarrierscomponent"
     },
     {
@@ -2210,7 +2530,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "search_carriers_search_carriers_component_searchcarrierscomponent_constructor",
-      "community": 9,
+      "community": 8,
       "norm_label": ".constructor()"
     },
     {
@@ -2220,7 +2540,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "search_carriers_search_carriers_component_searchcarrierscomponent_ngoninit",
-      "community": 9,
+      "community": 8,
       "norm_label": ".ngoninit()"
     },
     {
@@ -2230,7 +2550,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "search_carriers_search_carriers_component_searchcarrierscomponent_filtercarriers",
-      "community": 9,
+      "community": 8,
       "norm_label": ".filtercarriers()"
     },
     {
@@ -2240,7 +2560,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "search_carriers_search_carriers_component_searchcarrierscomponent_submitrequest",
-      "community": 9,
+      "community": 8,
       "norm_label": ".submitrequest()"
     },
     {
@@ -2320,7 +2640,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component_spec",
-      "community": 10,
+      "community": 8,
       "norm_label": "register-entreprenuer.component.spec.ts"
     },
     {
@@ -2330,7 +2650,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component",
-      "community": 10,
+      "community": 8,
       "norm_label": "register-entreprenuer.component.ts"
     },
     {
@@ -2340,7 +2660,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component_registerentreprenuercomponent",
-      "community": 10,
+      "community": 8,
       "norm_label": "registerentreprenuercomponent"
     },
     {
@@ -2350,7 +2670,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component_registerentreprenuercomponent_constructor",
-      "community": 10,
+      "community": 8,
       "norm_label": ".constructor()"
     },
     {
@@ -2360,7 +2680,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component_registerentreprenuercomponent_triggerfileinput",
-      "community": 10,
+      "community": 8,
       "norm_label": ".triggerfileinput()"
     },
     {
@@ -2370,7 +2690,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component_registerentreprenuercomponent_onfileselected",
-      "community": 10,
+      "community": 8,
       "norm_label": ".onfileselected()"
     },
     {
@@ -2380,7 +2700,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "register_entreprenuer_register_entreprenuer_component_registerentreprenuercomponent_onsubmit",
-      "community": 10,
+      "community": 8,
       "norm_label": ".onsubmit()"
     },
     {
@@ -2427,7 +2747,7 @@
       "label": ".onSubmit()",
       "file_type": "code",
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
-      "source_location": "L45",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "sign_in_v2_sign_in_v2_component_signinv2component_onsubmit",
       "community": 4,
@@ -2490,7 +2810,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "sign_up_sign_up_component_spec",
-      "community": 3,
+      "community": 8,
       "norm_label": "sign-up.component.spec.ts"
     },
     {
@@ -2500,7 +2820,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "sign_up_sign_up_component",
-      "community": 3,
+      "community": 8,
       "norm_label": "sign-up.component.ts"
     },
     {
@@ -2510,7 +2830,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "sign_up_sign_up_component_signupcomponent",
-      "community": 3,
+      "community": 8,
       "norm_label": "signupcomponent"
     },
     {
@@ -2520,7 +2840,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "sign_up_sign_up_component_signupcomponent_constructor",
-      "community": 3,
+      "community": 8,
       "norm_label": ".constructor()"
     },
     {
@@ -2530,7 +2850,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "sign_up_sign_up_component_signupcomponent_navigateto",
-      "community": 3,
+      "community": 8,
       "norm_label": ".navigateto()"
     },
     {
@@ -2592,6 +2912,86 @@
       "id": "models_entreprenuer_model_entreprenuer",
       "community": 15,
       "norm_label": "entreprenuer"
+    },
+    {
+      "label": "vehicle-availability-status.enum.ts",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-availability-status.enum.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_vehicle_availability_status_enum",
+      "community": 1,
+      "norm_label": "vehicle-availability-status.enum.ts"
+    },
+    {
+      "label": "VehicleAvailabilityStatus",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-availability-status.enum.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "community": 1,
+      "norm_label": "vehicleavailabilitystatus"
+    },
+    {
+      "label": "vehicle-payload.model.ts",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_vehicle_payload_model",
+      "community": 1,
+      "norm_label": "vehicle-payload.model.ts"
+    },
+    {
+      "label": "VehiclePayload",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "fleet_vehicle_payload_model_vehiclepayload",
+      "community": 1,
+      "norm_label": "vehiclepayload"
+    },
+    {
+      "label": "vehicle-resource.model.ts",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_vehicle_resource_model",
+      "community": 1,
+      "norm_label": "vehicle-resource.model.ts"
+    },
+    {
+      "label": "VehicleResource",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "fleet_vehicle_resource_model_vehicleresource",
+      "community": 1,
+      "norm_label": "vehicleresource"
+    },
+    {
+      "label": "vehicle-type.enum.ts",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-type.enum.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_vehicle_type_enum",
+      "community": 1,
+      "norm_label": "vehicle-type.enum.ts"
+    },
+    {
+      "label": "VehicleType",
+      "file_type": "code",
+      "source_file": "src/app/shared/models/fleet/vehicle-type.enum.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "fleet_vehicle_type_enum_vehicletype",
+      "community": 1,
+      "norm_label": "vehicletype"
     },
     {
       "label": "user.model.ts",
@@ -3819,9 +4219,9 @@
       "source_file": "src/app/app.config.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_app_config",
-      "target": "interceptors_auth_v2_interceptor",
-      "confidence_score": 1.0
+      "target": "interceptors_auth_v2_interceptor"
     },
     {
       "relation": "imports",
@@ -3830,9 +4230,9 @@
       "source_file": "src/app/app.config.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_app_config",
-      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
-      "confidence_score": 1.0
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor"
     },
     {
       "relation": "imports_from",
@@ -3857,6 +4257,126 @@
       "target": "app_app_config_appconfig"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "app_app_routes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "app_app_routes_routes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "app_app_routes_spec_routerhostcomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "auth_auth_v2_guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "auth_auth_v2_guard_authv2guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "auth_auth_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "auth_auth_v2_service_authv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "auth_carrier_role_guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "auth_carrier_role_guard_carrierroleguard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_app_routes_spec",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/app/app.routes.ts",
@@ -3865,6 +4385,50 @@
       "confidence_score": 1.0,
       "source": "app_app_routes",
       "target": "app_app_routes_routes"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "auth_auth_v2_guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "auth_auth_v2_guard_authv2guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "auth_carrier_role_guard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "auth_carrier_role_guard_carrierroleguard",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3909,6 +4473,28 @@
       "confidence_score": 1.0,
       "source": "app_app_routes",
       "target": "create_request_create_request_component_createrequestcomponent"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "fleet_fleet_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "app_app_routes",
+      "target": "fleet_fleet_component_fleetcomponent",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4126,9 +4712,9 @@
       "source_file": "src/app/app.routes.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_app_routes",
-      "target": "sign_in_v2_sign_in_v2_component",
-      "confidence_score": 1.0
+      "target": "sign_in_v2_sign_in_v2_component"
     },
     {
       "relation": "imports",
@@ -4137,9 +4723,9 @@
       "source_file": "src/app/app.routes.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_app_routes",
-      "target": "sign_in_v2_sign_in_v2_component_signinv2component",
-      "confidence_score": 1.0
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component"
     },
     {
       "relation": "imports_from",
@@ -4192,9 +4778,9 @@
       "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_guard_spec",
-      "target": "auth_auth_v2_guard",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_guard"
     },
     {
       "relation": "imports",
@@ -4203,9 +4789,9 @@
       "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_guard_spec",
-      "target": "auth_auth_v2_guard_authv2guard",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_guard_authv2guard"
     },
     {
       "relation": "imports_from",
@@ -4214,9 +4800,9 @@
       "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_guard_spec",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports",
@@ -4225,9 +4811,9 @@
       "source_file": "src/app/core/auth/auth-v2.guard.spec.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_guard_spec",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "contains",
@@ -4235,9 +4821,9 @@
       "source_file": "src/app/core/auth/auth-v2.guard.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_guard",
-      "target": "auth_auth_v2_guard_authv2guard",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_guard_authv2guard"
     },
     {
       "relation": "imports_from",
@@ -4246,9 +4832,9 @@
       "source_file": "src/app/core/auth/auth-v2.guard.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_guard",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports",
@@ -4257,9 +4843,9 @@
       "source_file": "src/app/core/auth/auth-v2.guard.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_guard",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "contains",
@@ -4267,9 +4853,9 @@
       "source_file": "src/app/core/auth/auth-v2.models.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_models",
-      "target": "auth_auth_v2_models_businessprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_businessprofile"
     },
     {
       "relation": "contains",
@@ -4277,9 +4863,9 @@
       "source_file": "src/app/core/auth/auth-v2.models.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_models",
-      "target": "auth_auth_v2_models_canonicalrole",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_canonicalrole"
     },
     {
       "relation": "contains",
@@ -4287,9 +4873,9 @@
       "source_file": "src/app/core/auth/auth-v2.models.ts",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_models",
-      "target": "auth_auth_v2_models_loginprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginprofile"
     },
     {
       "relation": "contains",
@@ -4297,9 +4883,9 @@
       "source_file": "src/app/core/auth/auth-v2.models.ts",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_models",
-      "target": "auth_auth_v2_models_loginresponse",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginresponse"
     },
     {
       "relation": "contains",
@@ -4307,9 +4893,9 @@
       "source_file": "src/app/core/auth/auth-v2.models.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_models",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "imports_from",
@@ -4318,9 +4904,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "auth_auth_v2_models",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models"
     },
     {
       "relation": "imports_from",
@@ -4329,9 +4915,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "auth_auth_v2_models",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models"
     },
     {
       "relation": "imports_from",
@@ -4340,9 +4926,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "auth_auth_v2_models",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models"
     },
     {
       "relation": "imports",
@@ -4351,9 +4937,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "auth_auth_v2_models_canonicalrole",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_canonicalrole"
     },
     {
       "relation": "references",
@@ -4362,9 +4948,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_hasrole",
-      "target": "auth_auth_v2_models_canonicalrole",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_canonicalrole"
     },
     {
       "relation": "imports",
@@ -4373,9 +4959,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "references",
@@ -4384,9 +4970,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_getprofile",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "references",
@@ -4395,9 +4981,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_loadprofile",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "references",
@@ -4406,9 +4992,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_persistprofile",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "references",
@@ -4417,9 +5003,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "imports",
@@ -4428,9 +5014,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "imports",
@@ -4439,9 +5025,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "auth_auth_v2_models_sessionprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_sessionprofile"
     },
     {
       "relation": "imports",
@@ -4450,9 +5036,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "auth_auth_v2_models_loginprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginprofile"
     },
     {
       "relation": "references",
@@ -4461,9 +5047,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin",
-      "target": "auth_auth_v2_models_loginprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginprofile"
     },
     {
       "relation": "imports",
@@ -4472,9 +5058,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "auth_auth_v2_models_loginresponse",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginresponse"
     },
     {
       "relation": "references",
@@ -4483,9 +5069,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_login",
-      "target": "auth_auth_v2_models_loginresponse",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginresponse"
     },
     {
       "relation": "imports",
@@ -4494,9 +5080,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "auth_auth_v2_models_loginresponse",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginresponse"
     },
     {
       "relation": "imports",
@@ -4505,9 +5091,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "auth_auth_v2_models_loginresponse",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_models_loginresponse"
     },
     {
       "relation": "imports_from",
@@ -4516,9 +5102,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports",
@@ -4527,9 +5113,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports_from",
@@ -4538,9 +5124,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "enviroments_enviroment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment"
     },
     {
       "relation": "imports",
@@ -4549,9 +5135,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "enviroments_enviroment_environment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment_environment"
     },
     {
       "relation": "imports_from",
@@ -4560,9 +5146,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "interceptors_auth_v2_interceptor",
-      "confidence_score": 1.0
+      "target": "interceptors_auth_v2_interceptor"
     },
     {
       "relation": "imports",
@@ -4571,9 +5157,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.spec.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_spec",
-      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
-      "confidence_score": 1.0
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor"
     },
     {
       "relation": "contains",
@@ -4581,9 +5167,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports_from",
@@ -4592,9 +5178,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "enviroments_enviroment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment"
     },
     {
       "relation": "imports",
@@ -4603,9 +5189,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service",
-      "target": "enviroments_enviroment_environment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment_environment"
     },
     {
       "relation": "imports_from",
@@ -4614,9 +5200,9 @@
       "source_file": "src/app/core/auth/carrier-role.guard.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_carrier_role_guard",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports_from",
@@ -4625,9 +5211,9 @@
       "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_carrier_role_guard_spec",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports_from",
@@ -4636,9 +5222,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports_from",
@@ -4647,9 +5233,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor_spec",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports_from",
@@ -4658,9 +5244,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports_from",
@@ -4669,9 +5255,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "imports_from",
@@ -4680,9 +5266,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
-      "target": "auth_auth_v2_service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service"
     },
     {
       "relation": "method",
@@ -4690,9 +5276,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_constructor",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_constructor"
     },
     {
       "relation": "method",
@@ -4700,9 +5286,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_getaccesstoken",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_getaccesstoken"
     },
     {
       "relation": "method",
@@ -4710,9 +5296,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_getprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_getprofile"
     },
     {
       "relation": "method",
@@ -4720,9 +5306,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_hasrole",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_hasrole"
     },
     {
       "relation": "method",
@@ -4730,9 +5316,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_isauthenticated",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_isauthenticated"
     },
     {
       "relation": "method",
@@ -4740,9 +5326,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_loadprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_loadprofile"
     },
     {
       "relation": "method",
@@ -4750,9 +5336,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_login",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_login"
     },
     {
       "relation": "method",
@@ -4760,9 +5346,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_logoutv2",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_logoutv2"
     },
     {
       "relation": "method",
@@ -4770,9 +5356,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_persistprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_persistprofile"
     },
     {
       "relation": "method",
@@ -4780,9 +5366,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_persisttoken",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_persisttoken"
     },
     {
       "relation": "method",
@@ -4790,9 +5376,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service",
-      "target": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_tosessionprofilefromlogin"
     },
     {
       "relation": "imports",
@@ -4801,9 +5387,9 @@
       "source_file": "src/app/core/auth/carrier-role.guard.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_carrier_role_guard",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports",
@@ -4812,9 +5398,9 @@
       "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_carrier_role_guard_spec",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports",
@@ -4823,9 +5409,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports",
@@ -4834,9 +5420,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor_spec",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports",
@@ -4845,9 +5431,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "references",
@@ -4856,9 +5442,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_signinv2component_constructor",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports",
@@ -4867,9 +5453,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "imports",
@@ -4878,9 +5464,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "references",
@@ -4889,9 +5475,9 @@
       "source_file": "src/app/domains/carrier/pages/home/home.component.ts",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_domains_carrier_pages_home_home_component_ts_home_home_component_homecomponent_constructor",
-      "target": "auth_auth_v2_service_authv2service",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service"
     },
     {
       "relation": "calls",
@@ -4900,9 +5486,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_getprofile",
-      "target": "auth_auth_v2_service_authv2service_logoutv2",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_logoutv2"
     },
     {
       "relation": "calls",
@@ -4911,9 +5497,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_isauthenticated",
-      "target": "auth_auth_v2_service_authv2service_getaccesstoken",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_getaccesstoken"
     },
     {
       "relation": "calls",
@@ -4922,9 +5508,9 @@
       "source_file": "src/app/core/auth/auth-v2.service.ts",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_v2_service_authv2service_hasrole",
-      "target": "auth_auth_v2_service_authv2service_getprofile",
-      "confidence_score": 1.0
+      "target": "auth_auth_v2_service_authv2service_getprofile"
     },
     {
       "relation": "imports_from",
@@ -4933,9 +5519,9 @@
       "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_carrier_role_guard_spec",
-      "target": "auth_carrier_role_guard",
-      "confidence_score": 1.0
+      "target": "auth_carrier_role_guard"
     },
     {
       "relation": "imports",
@@ -4944,9 +5530,9 @@
       "source_file": "src/app/core/auth/carrier-role.guard.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_carrier_role_guard_spec",
-      "target": "auth_carrier_role_guard_carrierroleguard",
-      "confidence_score": 1.0
+      "target": "auth_carrier_role_guard_carrierroleguard"
     },
     {
       "relation": "contains",
@@ -4954,9 +5540,9 @@
       "source_file": "src/app/core/auth/carrier-role.guard.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_carrier_role_guard",
-      "target": "auth_carrier_role_guard_carrierroleguard",
-      "confidence_score": 1.0
+      "target": "auth_carrier_role_guard_carrierroleguard"
     },
     {
       "relation": "imports_from",
@@ -4965,9 +5551,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor_spec",
-      "target": "enviroments_enviroment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment"
     },
     {
       "relation": "imports",
@@ -4976,9 +5562,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor_spec",
-      "target": "enviroments_enviroment_environment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment_environment"
     },
     {
       "relation": "imports_from",
@@ -4987,9 +5573,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor_spec",
-      "target": "interceptors_auth_v2_interceptor",
-      "confidence_score": 1.0
+      "target": "interceptors_auth_v2_interceptor"
     },
     {
       "relation": "imports",
@@ -4998,9 +5584,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.spec.ts",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor_spec",
-      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
-      "confidence_score": 1.0
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor"
     },
     {
       "relation": "imports_from",
@@ -5009,9 +5595,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor",
-      "target": "enviroments_enviroment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment"
     },
     {
       "relation": "imports",
@@ -5020,9 +5606,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor",
-      "target": "enviroments_enviroment_environment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment_environment"
     },
     {
       "relation": "contains",
@@ -5030,9 +5616,9 @@
       "source_file": "src/app/core/interceptors/auth-v2.interceptor.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "interceptors_auth_v2_interceptor",
-      "target": "interceptors_auth_v2_interceptor_authv2interceptor",
-      "confidence_score": 1.0
+      "target": "interceptors_auth_v2_interceptor_authv2interceptor"
     },
     {
       "relation": "imports_from",
@@ -5801,6 +6387,384 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "fleet_vehicle_availability_status_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "fleet_vehicle_payload_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "fleet_vehicle_payload_model_vehiclepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "fleet_vehicle_type_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "services_fleet_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_spec",
+      "target": "services_fleet_v2_service_fleetv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "services_fleet_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "services_fleet_v2_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service",
+      "target": "fleet_vehicle_payload_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service",
+      "target": "fleet_vehicle_payload_model_vehiclepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service",
+      "target": "fleet_vehicle_resource_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service",
+      "target": "services_fleet_v2_service_fleetv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "services_fleet_v2_service_fleetv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_constructor",
+      "target": "services_fleet_v2_service_fleetv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "services_fleet_v2_service_fleetv2service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service",
+      "target": "services_fleet_v2_service_fleetv2service_activatevehicle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service",
+      "target": "services_fleet_v2_service_fleetv2service_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service",
+      "target": "services_fleet_v2_service_fleetv2service_deactivatevehicle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service",
+      "target": "services_fleet_v2_service_fleetv2service_listvehicles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service",
+      "target": "services_fleet_v2_service_fleetv2service_registervehicle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service",
+      "target": "services_fleet_v2_service_fleetv2service_updatevehicle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service_listvehicles",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service_registervehicle",
+      "target": "fleet_vehicle_payload_model_vehiclepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service_registervehicle",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service_updatevehicle",
+      "target": "fleet_vehicle_payload_model_vehiclepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service_updatevehicle",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service_activatevehicle",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/services/fleet-v2.service.ts",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "services_fleet_v2_service_fleetv2service_deactivatevehicle",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/app/domains/carrier/components/offered-price/offered-price.component.spec.ts",
       "source_location": "L3",
       "weight": 1.0,
@@ -6192,6 +7156,515 @@
       "confidence_score": 1.0,
       "source": "confirmed_services_confirmed_services_component_confirmedservicescomponent",
       "target": "confirmed_services_confirmed_services_component_confirmedservicescomponent_openshippinginfo"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "enviroments_enviroment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "enviroments_enviroment_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_fleet_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_fleet_component_fleetcomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_fleet_component_spec_flushinitialactivelist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_vehicle_availability_status_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_vehicle_resource_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_vehicle_type_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_spec",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_fleet_component_fleetcomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_availability_status_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_payload_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_payload_model_vehiclepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_resource_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_type_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "fleet_fleet_component",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_activatevehicle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_buildpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_cancelform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_createvehicleform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_deactivatevehicle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_formatavailability",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_formatvehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_ispatchinprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_loadvehicles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L272",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_mapfleeterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_ngoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_onincludeinactivechange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_opencreateform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_openeditform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_optionalpositivevolumevalidator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_fleet_component_fleetcomponent_submitform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_constructor",
+      "target": "fleet_fleet_component_fleetcomponent_createvehicleform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_ngoninit",
+      "target": "fleet_fleet_component_fleetcomponent_loadvehicles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_onincludeinactivechange",
+      "target": "fleet_fleet_component_fleetcomponent_loadvehicles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_openeditform",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_submitform",
+      "target": "fleet_fleet_component_fleetcomponent_buildpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_formatavailability",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_activatevehicle",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_deactivatevehicle",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_formatvehicletype",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/domains/carrier/pages/fleet/fleet.component.ts",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "fleet_fleet_component_fleetcomponent_buildpayload",
+      "target": "fleet_vehicle_payload_model_vehiclepayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6944,9 +8417,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "enviroments_enviroment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment"
     },
     {
       "relation": "imports",
@@ -6955,9 +8428,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "enviroments_enviroment_environment",
-      "confidence_score": 1.0
+      "target": "enviroments_enviroment_environment"
     },
     {
       "relation": "imports_from",
@@ -6966,9 +8439,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "sign_in_v2_sign_in_v2_component",
-      "confidence_score": 1.0
+      "target": "sign_in_v2_sign_in_v2_component"
     },
     {
       "relation": "imports",
@@ -6977,9 +8450,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_spec",
-      "target": "sign_in_v2_sign_in_v2_component_signinv2component",
-      "confidence_score": 1.0
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component"
     },
     {
       "relation": "contains",
@@ -6987,9 +8460,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component",
-      "target": "sign_in_v2_sign_in_v2_component_signinv2component",
-      "confidence_score": 1.0
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component"
     },
     {
       "relation": "method",
@@ -6997,9 +8470,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_signinv2component",
-      "target": "sign_in_v2_sign_in_v2_component_signinv2component_constructor",
-      "confidence_score": 1.0
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component_constructor"
     },
     {
       "relation": "method",
@@ -7007,9 +8480,9 @@
       "source_file": "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sign_in_v2_sign_in_v2_component_signinv2component",
-      "target": "sign_in_v2_sign_in_v2_component_signinv2component_onsubmit",
-      "confidence_score": 1.0
+      "target": "sign_in_v2_sign_in_v2_component_signinv2component_onsubmit"
     },
     {
       "relation": "imports_from",
@@ -7154,6 +8627,178 @@
       "confidence_score": 1.0,
       "source": "models_entreprenuer_model",
       "target": "models_entreprenuer_model_entreprenuercreate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-availability-status.enum.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "fleet_vehicle_availability_status_enum",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "fleet_vehicle_payload_model",
+      "target": "fleet_vehicle_availability_status_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "fleet_vehicle_resource_model",
+      "target": "fleet_vehicle_availability_status_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "fleet_vehicle_payload_model",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "fleet_vehicle_payload_model_vehiclepayload",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "fleet_vehicle_resource_model",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "fleet_vehicle_resource_model_vehicleresource",
+      "target": "fleet_vehicle_availability_status_enum_vehicleavailabilitystatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "fleet_vehicle_payload_model",
+      "target": "fleet_vehicle_payload_model_vehiclepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "fleet_vehicle_payload_model",
+      "target": "fleet_vehicle_type_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "fleet_vehicle_payload_model",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-payload.model.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "fleet_vehicle_payload_model_vehiclepayload",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "fleet_vehicle_resource_model",
+      "target": "fleet_vehicle_resource_model_vehicleresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "fleet_vehicle_resource_model",
+      "target": "fleet_vehicle_type_enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "fleet_vehicle_resource_model",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-resource.model.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "fleet_vehicle_resource_model_vehicleresource",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/shared/models/fleet/vehicle-type.enum.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "fleet_vehicle_type_enum",
+      "target": "fleet_vehicle_type_enum_vehicletype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7331,5 +8976,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c7edb5598dc82e91ceace282eae36550f1dd28a4"
+  "built_at_commit": "6ce496f10b91a42f7e86b58948b9fc2845446419"
 }

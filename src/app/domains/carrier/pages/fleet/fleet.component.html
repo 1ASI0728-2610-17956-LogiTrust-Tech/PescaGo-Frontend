@@ -1,0 +1,156 @@
+<div class="fleet-page">
+  <header class="fleet-header">
+    <div class="fleet-header-content">
+      <h1>Mi Flota</h1>
+      <p>Gestiona los vehículos disponibles para tus servicios.</p>
+    </div>
+    <button mat-raised-button color="primary" type="button" (click)="openCreateForm()">
+      Registrar vehículo
+    </button>
+  </header>
+
+  <section class="fleet-content">
+    <p class="error-message" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <div class="fleet-toolbar">
+      <mat-slide-toggle
+        [checked]="includeInactive"
+        (change)="onIncludeInactiveChange($event.checked)"
+      >
+        Mostrar inactivos
+      </mat-slide-toggle>
+    </div>
+
+    <section class="vehicle-form-panel" *ngIf="showForm">
+      <h2>{{ editingVehicleId === null ? 'Registrar vehículo' : 'Editar vehículo' }}</h2>
+
+      <form [formGroup]="vehicleForm" (ngSubmit)="submitForm()">
+        <div class="form-grid">
+          <mat-form-field appearance="outline">
+            <mat-label>Placa</mat-label>
+            <input matInput formControlName="plate" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Tipo de vehículo</mat-label>
+            <mat-select formControlName="vehicleType">
+              <mat-option *ngFor="let type of vehicleTypes" [value]="type">
+                {{ formatVehicleType(type) }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Peso máximo (kg)</mat-label>
+            <input matInput type="number" formControlName="maxWeightKg" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Volumen máximo (m³)</mat-label>
+            <input matInput type="number" formControlName="maxVolumeM3" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Disponibilidad</mat-label>
+            <mat-select formControlName="availabilityStatus">
+              <mat-option *ngFor="let status of availabilityStatuses" [value]="status">
+                {{ formatAvailability(status) }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <div class="checkbox-field">
+            <mat-checkbox formControlName="refrigerated">Refrigerado</mat-checkbox>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button mat-button type="button" (click)="cancelForm()">Cancelar</button>
+          <button
+            mat-raised-button
+            color="primary"
+            type="submit"
+            [disabled]="vehicleForm.invalid || isSubmitting"
+          >
+            {{ editingVehicleId === null ? 'Registrar' : 'Guardar cambios' }}
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <section class="vehicle-list-panel">
+      <div class="loading-state" *ngIf="isLoading">Cargando vehículos...</div>
+
+      <div class="empty-state" *ngIf="!isLoading && vehicles.length === 0">
+        No tienes vehículos registrados todavía. Usa "Registrar vehículo" para agregar el primero.
+      </div>
+
+      <table mat-table [dataSource]="vehicles" *ngIf="!isLoading && vehicles.length > 0" class="vehicle-table">
+        <ng-container matColumnDef="plate">
+          <th mat-header-cell *matHeaderCellDef>Placa</th>
+          <td mat-cell *matCellDef="let vehicle">{{ vehicle.plate }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="vehicleType">
+          <th mat-header-cell *matHeaderCellDef>Tipo</th>
+          <td mat-cell *matCellDef="let vehicle">{{ formatVehicleType(vehicle.vehicleType) }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="maxWeightKg">
+          <th mat-header-cell *matHeaderCellDef>Peso máx. (kg)</th>
+          <td mat-cell *matCellDef="let vehicle">{{ vehicle.maxWeightKg }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="maxVolumeM3">
+          <th mat-header-cell *matHeaderCellDef>Volumen (m³)</th>
+          <td mat-cell *matCellDef="let vehicle">{{ vehicle.maxVolumeM3 ?? '—' }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="refrigerated">
+          <th mat-header-cell *matHeaderCellDef>Refrigerado</th>
+          <td mat-cell *matCellDef="let vehicle">{{ vehicle.refrigerated ? 'Sí' : 'No' }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="availabilityStatus">
+          <th mat-header-cell *matHeaderCellDef>Disponibilidad</th>
+          <td mat-cell *matCellDef="let vehicle">{{ formatAvailability(vehicle.availabilityStatus) }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="active">
+          <th mat-header-cell *matHeaderCellDef>Estado</th>
+          <td mat-cell *matCellDef="let vehicle">{{ vehicle.active ? 'Activo' : 'Inactivo' }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="actions">
+          <th mat-header-cell *matHeaderCellDef>Acciones</th>
+          <td mat-cell *matCellDef="let vehicle" class="actions-cell">
+            <button mat-button type="button" (click)="openEditForm(vehicle)">Editar</button>
+            <button
+              mat-button
+              type="button"
+              color="primary"
+              *ngIf="!vehicle.active"
+              [disabled]="isPatchInProgress(vehicle.id)"
+              (click)="activateVehicle(vehicle)"
+            >
+              {{ isPatchInProgress(vehicle.id) ? 'Activando...' : 'Activar' }}
+            </button>
+            <button
+              mat-button
+              type="button"
+              color="warn"
+              *ngIf="vehicle.active"
+              [disabled]="isPatchInProgress(vehicle.id)"
+              (click)="deactivateVehicle(vehicle)"
+            >
+              {{ isPatchInProgress(vehicle.id) ? 'Desactivando...' : 'Desactivar' }}
+            </button>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      </table>
+    </section>
+  </section>
+</div>

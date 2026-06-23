@@ -1,0 +1,98 @@
+.fleet-page {
+  min-height: 100vh;
+  background-color: #e8f1ff;
+  font-family: Arial, sans-serif;
+}
+
+.fleet-header {
+  background-color: #1a2a44;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 32px;
+}
+
+.fleet-header-content h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.fleet-header-content p {
+  margin: 0;
+  color: #dbeafe;
+}
+
+.fleet-content {
+  padding: 24px 32px 40px;
+}
+
+.fleet-toolbar {
+  margin-bottom: 20px;
+}
+
+.vehicle-form-panel,
+.vehicle-list-panel {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.vehicle-form-panel {
+  margin-bottom: 24px;
+}
+
+.vehicle-form-panel h2 {
+  margin-top: 0;
+  color: #1a2a44;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-bottom: 16px;
+}
+
+.loading-state,
+.empty-state {
+  color: #475569;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.vehicle-table {
+  width: 100%;
+}
+
+.actions-cell {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+@media (max-width: 768px) {
+  .fleet-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -15,13 +15,13 @@
     "semantic_hash": ""
   },
   "src/app/app.config.ts": {
-    "mtime": 1782168857.1190479,
+    "mtime": 1782171518.4893687,
     "ast_hash": "10af00bfa92bc3580e05100148021bd5",
     "semantic_hash": ""
   },
   "src/app/app.routes.ts": {
-    "mtime": 1782168885.2085593,
-    "ast_hash": "3a516056f9d3c23d07fef961292938b5",
+    "mtime": 1782172249.1221635,
+    "ast_hash": "5963110537ec9b9617eb213b527109d8",
     "semantic_hash": ""
   },
   "src/app/core/services/api.service.ts": {
@@ -75,7 +75,7 @@
     "semantic_hash": ""
   },
   "src/app/domains/carrier/pages/home/home.component.ts": {
-    "mtime": 1782168859.6350205,
+    "mtime": 1782171518.4983687,
     "ast_hash": "533522b8263e73b23b4fd522c7605638",
     "semantic_hash": ""
   },
@@ -215,12 +215,12 @@
     "semantic_hash": ""
   },
   "src/enviroments/enviroment.prod.ts": {
-    "mtime": 1782168806.1848414,
+    "mtime": 1782171518.5023715,
     "ast_hash": "b17b32e36ba10daec4d33ff6d80ca55e",
     "semantic_hash": ""
   },
   "src/enviroments/enviroment.ts": {
-    "mtime": 1782168806.1858425,
+    "mtime": 1782171518.5023715,
     "ast_hash": "b2af82904a33a82b369afe6742b6f928",
     "semantic_hash": ""
   },
@@ -490,63 +490,113 @@
     "semantic_hash": ""
   },
   "src/app/core/auth/auth-v2.guard.spec.ts": {
-    "mtime": 1782168906.5986378,
-    "ast_hash": "5259dde500291001ad10e8cec1fda414",
+    "mtime": 1782171518.4913695,
+    "ast_hash": "80402599cea144004e6e2a8f3f872373",
     "semantic_hash": ""
   },
   "src/app/core/auth/auth-v2.guard.ts": {
-    "mtime": 1782168808.7285633,
-    "ast_hash": "0a89ec0b042e7daf850e077b6e8c89e4",
+    "mtime": 1782171518.4923692,
+    "ast_hash": "1304ced2300e52886c2fb18dc783d2d6",
     "semantic_hash": ""
   },
   "src/app/core/auth/auth-v2.models.ts": {
-    "mtime": 1782168806.2043848,
-    "ast_hash": "74850c210ea06647a1e7e12cb4e31b68",
+    "mtime": 1782171518.4923692,
+    "ast_hash": "8278166385b08638b52206aa2c372c5a",
     "semantic_hash": ""
   },
   "src/app/core/auth/auth-v2.service.spec.ts": {
-    "mtime": 1782168917.143882,
-    "ast_hash": "c591d0bc8bd8e458740a30a1a0b15255",
+    "mtime": 1782171518.4933684,
+    "ast_hash": "d38da3519a25217fe51d384a668d4829",
     "semantic_hash": ""
   },
   "src/app/core/auth/auth-v2.service.ts": {
-    "mtime": 1782168807.4093227,
-    "ast_hash": "fbf739f71f2bcadcea5fb96ae97dc098",
+    "mtime": 1782171518.4943688,
+    "ast_hash": "f3f92a7379db11d330461c8760a8ea32",
     "semantic_hash": ""
   },
   "src/app/core/auth/carrier-role.guard.spec.ts": {
-    "mtime": 1782168907.9144168,
-    "ast_hash": "ae9d95b608450f906de13ccc14a74389",
+    "mtime": 1782171518.4943688,
+    "ast_hash": "815f13b16110ba32fede779c5f9ef2e3",
     "semantic_hash": ""
   },
   "src/app/core/auth/carrier-role.guard.ts": {
-    "mtime": 1782168809.040228,
-    "ast_hash": "dff1e52f4c1946e7c8a7b978717b3d8b",
+    "mtime": 1782171518.4953687,
+    "ast_hash": "6492bc70ef72226d9d6dd8ab12bbf1e4",
     "semantic_hash": ""
   },
   "src/app/core/interceptors/auth-v2.interceptor.spec.ts": {
-    "mtime": 1782170419.9925191,
-    "ast_hash": "64338db00faf17e336d8f789fcb1291f",
+    "mtime": 1782171518.496369,
+    "ast_hash": "148071244934e5af31bb6c22a235b1bc",
     "semantic_hash": ""
   },
   "src/app/core/interceptors/auth-v2.interceptor.ts": {
-    "mtime": 1782170383.6480336,
-    "ast_hash": "cecca06073a4a48488f9e26903fb6c8d",
+    "mtime": 1782171518.4973698,
+    "ast_hash": "721c0ef1b16fec34c6629c2171c352b2",
     "semantic_hash": ""
   },
   "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.spec.ts": {
-    "mtime": 1782170385.8722847,
-    "ast_hash": "cfe98cee49419fbfd91eb8e7b615283d",
+    "mtime": 1782172274.4166286,
+    "ast_hash": "23af4ebc1118e999722b6bb3fa13e22f",
     "semantic_hash": ""
   },
   "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.ts": {
-    "mtime": 1782170382.8065853,
-    "ast_hash": "19b7b61eaa7b44f0b082ea0c0e6eb5c9",
+    "mtime": 1782172250.5067399,
+    "ast_hash": "8d4fbc1d4eee34b39f5bb395adcd8e83",
     "semantic_hash": ""
   },
   "src/app/domains/iam/pages/sign-in-v2/sign-in-v2.component.html": {
-    "mtime": 1782170384.037439,
-    "ast_hash": "20be81d206aca31685596ce576de2479",
+    "mtime": 1782171518.5003684,
+    "ast_hash": "c570170380631fcffece5540b2f73448",
+    "semantic_hash": ""
+  },
+  "src/app/app.routes.spec.ts": {
+    "mtime": 1782173033.4896414,
+    "ast_hash": "1c1166642e459e51b22ee2135e114d43",
+    "semantic_hash": ""
+  },
+  "src/app/core/services/fleet-v2.service.spec.ts": {
+    "mtime": 1782172200.8790488,
+    "ast_hash": "3ae00a91aa1dc9414527efd76357f2ed",
+    "semantic_hash": ""
+  },
+  "src/app/core/services/fleet-v2.service.ts": {
+    "mtime": 1782172198.419623,
+    "ast_hash": "db40fe4b64816f82ee69b59ea208c39a",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/fleet/fleet.component.spec.ts": {
+    "mtime": 1782172864.0519028,
+    "ast_hash": "db86f374c4c084db68894dc6aa71fc3a",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/fleet/fleet.component.ts": {
+    "mtime": 1782172843.2306747,
+    "ast_hash": "10506fb357726978e6da60bde395bf51",
+    "semantic_hash": ""
+  },
+  "src/app/shared/models/fleet/vehicle-availability-status.enum.ts": {
+    "mtime": 1782172196.4165435,
+    "ast_hash": "2426ab0e6de9e598fc3663da9b72b576",
+    "semantic_hash": ""
+  },
+  "src/app/shared/models/fleet/vehicle-payload.model.ts": {
+    "mtime": 1782172197.2620971,
+    "ast_hash": "3b8bd43cf04fcff6ccac2e8305f65c75",
+    "semantic_hash": ""
+  },
+  "src/app/shared/models/fleet/vehicle-resource.model.ts": {
+    "mtime": 1782172196.66866,
+    "ast_hash": "edf9ce40285cc3e481e2b716aad9b10e",
+    "semantic_hash": ""
+  },
+  "src/app/shared/models/fleet/vehicle-type.enum.ts": {
+    "mtime": 1782172196.4165435,
+    "ast_hash": "e40fd4591db9eeba1d20d1d668129611",
+    "semantic_hash": ""
+  },
+  "src/app/domains/carrier/pages/fleet/fleet.component.html": {
+    "mtime": 1782172845.3239486,
+    "ast_hash": "c69b9cf0b4fa4d93432f3744f067dcd3",
     "semantic_hash": ""
   }
 }
